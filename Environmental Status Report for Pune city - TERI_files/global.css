@@ -1,0 +1,1775 @@
+#msg, * { margin: 0 }
+.clear, .hexagon, .signupBox ul { overflow: hidden }
+.mar_auto, .titleBox h1, .titleBox p, .titlebarBox { text-align: center }
+.latestproBox .slides>li, .storeBox .slides>li, .titlebarBox .slides>li, .websiteBox .slides>li { -webkit-backface-visibility: hidden }
+* { padding: 0 }
+body, html { height: 100%; }
+body.event_ht { height: auto; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block }
+.sb-toggle-left, .tinynav { display: none }
+ul { list-style: none; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box }
+li { -webkit-transition: all .1s ease-in-out; box-sizing: border-box }
+a, input, li { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; transition: all .1s ease-in-out }
+a, input { outline: 0; -webkit-transition: all .1s ease-in-out; box-sizing: border-box }
+.more { color: #26C0F9; font-size: 13px }
+ol.leftpad, ul.leftpad { padding-left: 20px }
+.more:hover { color: #139ad9 }
+.load-bar { min-height: 150px }
+.load-bar #loader_div { position: absolute; left: 50%; margin-left: -50px; bottom: 0 }
+.no_clor { background: 0 0!important }
+.view_ab { position: absolute!important }
+.list_dotted li { padding-left: 15px; background: url(../images/dotted.jpg) left 8px no-repeat; padding-bottom: 5px; line-height: 18px; width: 98%; position: relative; transition: none; -webkit-transition: none }
+.list_dotted_big li { padding-left: 15px; background: url(../images/dotted.jpg) left 8px no-repeat; padding-bottom: 5px; line-height: 18px; font-size: 16px;  width: 98%; position: relative; transition: none; -webkit-transition: none }
+.list_dotted_big { padding-left: 20px; }
+.list_dotted { padding: 0 }
+.mar_auto { margin: 0 auto 20px }
+.signupBox { padding: 20px 0 }
+.signupBox .auto_center { float: none; margin: auto }
+.signupBox ul { margin: 0; padding: 0 }
+.signupBox li { padding-bottom: 10px; width: 100%; float: left }
+.signupBox .list label { font-weight: 400; margin: 5px 0 }
+.clear { clear: both; height: 0 }
+span { box-sizing: border-box }
+
+#headerCntr, span { -webkit-box-sizing: border-box; -moz-box-sizing: border-box }
+.hexagon2 { width: 150px; height: 170px }
+.hexagon { visibility: hidden; -webkit-transform: rotate(120deg); -moz-transform: rotate(120deg); -o-transform: rotate(120deg); -ms-transform: rotate(120deg); transform: rotate(120deg); cursor: pointer }
+.hexagon-in1 { transform: rotate(-60deg) }
+.hexagon-in1, .hexagon-in2 { overflow: hidden; width: 100%; height: 100%; -webkit-transform: rotate(-60deg); -moz-transform: rotate(-60deg); -o-transform: rotate(-60deg); -ms-transform: rotate(-60deg) }
+.hexagon-in2 { -webkit-box-shadow: inset 0 0 0 0 rgba(0,0,0,.5); box-shadow: inset 0 0 0 0 rgba(0,0,0,.5); background-repeat: no-repeat; background-position: 50%; visibility: visible; transform: rotate(-60deg); -webkit-transition: all .8s ease; -moz-transition: all .8s ease; -o-transition: all .8s ease; -ms-transition: all .8s ease; transition: all .8s ease }
+.col-md-3 div:hover .hexagon-in2 { -webkit-box-shadow: inset 0 0 0 200px rgba(0,0,0,.1); box-shadow: inset 0 0 0 200px rgba(0,0,0,.1) }
+em { font-style: normal; font-family: aller_lightitalic }
+.num_list { margin-top: 25px }
+.print-icon, .view_btn { top: 9px; display: block; background: #e3e9ed }
+.view_btn { padding: 0 10px; line-height: 24px; position: absolute; color: #555658; right: 16px; border-radius: 15px; -webkit-border-radius: 15px }
+.print-icon { padding: 5px 15px; color: #676A6E!important; border-radius: 15px; -webkit-border-radius: 15px }
+.print-icon:hover, .view_btn:hover { text-decoration: none; box-shadow: 1px 1px 2px rgba(0,0,0,.2); -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.2) }
+#tweet-btn, .fb-share-button { display: inline }
+.none_list { list-style: none!important }
+#wrapper { position: relative; display: block; width: 100%; min-height: 100%; height: auto!important }
+.home_btn .npBox, .mod_header { display: none }
+.menufeBox.event { background-color: #83c01d }
+.mod_header { padding: 0 5%; background: #59BD56; width: 100% }
+#headerCntr .logo .div_head, #headerCntr .logo a span { color: #777; margin-top: 5px; font-size: 23px; line-height: 28px; font-family: allerregular; display: inline-block }
+#mainCntr { padding-bottom: 230px; width: 100% }
+#headerCntr { position: relative; width: 100%; z-index: 2; box-sizing: border-box; background: #FFF }
+#headerCntr .logo { margin-top: 5px }
+#headerCntr .logo img { padding-right: 12px; width: 86px; float: left }
+#headerCntr .logo.home_logo a span { margin-top: 5px; min-height: 45px }
+.textsap { margin-bottom: 5px }
+#headerCntr .logo.home_logo .div_head { margin-top: 5px; min-height: 45px }
+.mob_SHOW { display: none }
+#headerCntr .logo small { display: block; font-size: 16px; line-height: 16px; color: #777 }
+#headerCntr .shad { padding: 5px 0 15px; box-shadow: 0 1px 4px rgba(0,0,0,.4); position: relative; z-index: 1 }
+#headerCntr #drop { display: none }
+.socailBox { padding-top: 10px; width: 100% }
+.socailBox ul { margin: 6px 0 0!important; padding: 0 }
+.socailBox li { padding: 0 4px!important; float: left }
+.socailBox #search { position: static; width: auto }
+.socailBox li a { display: block; height: 32px; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; border-radius: 4px; text-indent: -99999px; width: 32px; text-decoration: none; border: 1px solid #dbdde1; background: url(../images/fb_icon.png) left top no-repeat }
+.socailBox li.tweet a { background: url(../images/tweet.png) left top no-repeat }
+.socailBox li.yt a { background: url(../images/yt.png) left top no-repeat }
+.socailBox li.ld a { background: url(../images/in_icon.png) left top no-repeat }
+.socailBox li a:hover { background-position: 0 -30px }
+.socailBox fieldset { padding: 0 5px 0 0; border: 0!important; margin: 0 }
+.socailBox .mail { padding: 1px 2px; margin-right: 10px; color: #fff; font-size: 12px; background: #38bc8f }
+.socailBox .link { margin: 14px 10px 0 0; display: inline-block; color: #565c5f; font-size: 12px }
+.socailBox .search, .titlebarBox .flex-direction-nav { display: none }
+.socailBox .fieldcontainer { margin: 10px 17px 0 0; float: left; background: url(../images/sap.jpg) right center no-repeat }
+.socailBox .searchfieldjs { border: 0; width: 82px; color: #000!important; font-size: 13px; padding: 4px 5px 4px 25px; border-radius: 20px; -webkit-border-radius: 20px; float: right; background: url(../images/search.png) 5px top no-repeat }
+.socailBox input { transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out }
+.socailBox .searchfieldjs:focus { margin-right: 5px; color: #fff!important; background-color: #2bcb6c; background-position: 5px -24px }
+.socailBox input:focus placeholder { color: #fff!important }
+.socailBox li a:hover { background-color: #648dd1 }
+.socailBox li.tweet a:hover { background-color: #28ccfb }
+.socailBox li.yt a:hover { background-color: #f66 }
+.socailBox li.ld a:hover { background-color: #007fb2 }
+.socailBox .teri { padding-right: 20px; color: #f37171; line-height: 26px; margin-right: 10px; float: right; background: url(../images/sap.jpg) right center no-repeat }
+.socailBox .teri span { padding-left: 30px; background: url(../images/teri_arrow.png) left 6px no-repeat }
+.titlebarBox { padding: 15px 0 20px; position: relative; border-bottom: 1px solid #e0d8a8; width: 100%; background: #f6f5ef }
+.titlebarBox .slides>li { display: none }
+.titlebarBox h2 { padding-bottom: 20px; margin: 0; color: #6a6b68; line-height: 28px }
+.titlebarBox p { padding: 0; width: 68%; margin: auto; font-size: 24px; line-height: 28px; color: #438933; font-family: aller_lightregular }
+.titlebarBox ul { padding: 0; margin: 0 }
+.titlebarBox .slides li { padding-bottom: 20px }
+.titlebarBox .flex-control-nav { padding: 10px 0 0; overflow: hidden; width: 100%; text-align: center; margin: 0; list-style: none; position: absolute; left: 0; bottom: 10px; z-index: 1 }
+.menufeBox, .menufeBox li, .menufeBox li a, .titleBox { position: relative }
+.titlebarBox .flex-control-nav li { padding: 0 1px; display: inline; float: none }
+.titlebarBox .flex-control-nav li a { width: 17px; cursor: pointer; height: 17px; display: inline-block }
+.titlebarBox .flex-control-nav li a span { display: block; width: 17px; float: none; height: 17px; text-indent: -99999px; background: url(../images/dot2.png) left top no-repeat }
+.titlebarBox .flex-control-nav li a.flex-active span { background-position: 0 -17px }
+.titleBox { padding: 10px 0 5px; z-index: 1; -webkit-transition: all .5s ease-in-out; overflow: hidden; width: 100% }
+.titleBox, .titleBox h1 strong { transition: all .5s ease-in-out }
+.titleBox h1 { padding-bottom: 10px; margin: 0; color: #4b4846; line-height: 28px; font-size: 22px }
+.titleBox h1 strong { margin-left: 15px; cursor: pointer; top: 4px; color: #ff8a00; -webkit-transition: all .5s ease-in-out }
+.titleBox p { padding: 0; width: 50%; margin: auto; font-size: 16px }
+.menuBox li, .menufeBox li { font-size: 14px; line-height: 48px; text-transform: uppercase; font-family: allerregular }
+.titleBox.down .glyphicon-circle-arrow-down:before { content: "\e133" }
+.menufeBox { width: 100%; background: #499de5 }
+.menufeBox ul { margin: 0; padding: 0; overflow: hidden; width: 100% }
+.menufeBox li { padding: 0 5px; color: #fff; float: left }
+.menufeBox li a { padding: 0 11px; color: #fff; display: block }
+.menuBox ul, .mobmenuBox ul { text-align: center; padding: 0 }
+.menufeBox li a:hover { text-decoration: none; background: rgba(0,0,0,.2) }
+.menuBox, .mobmenuBox { width: 100%; background: #59BD56 }
+.menufeBox h3 { margin: 15px 0 0; text-transform: uppercase; color: #fff }
+.mobmenuBox { display: none }
+.menuBox li, .menuBox li a, .menuBox li span { color: #fff; display: inline-block; position: relative }
+.mobmenuBox ul { margin: 0 }
+.menuBox { position: relative; z-index: 2 }
+.menuBox .navbar-nav { float: none!important }
+.menuBox ul { margin: 0 }
+.menuBox li { padding: 0 5px; float: none }
+.menuBox li a, .menuBox li span { padding: 0 10px }
+.menuBox li a:hover, .menuBox li:hover a, .menuBox li:hover span { text-decoration: none; background: rgba(0,0,0,.2) }
+.descriptionBox .pdf_file:hover, .newsBox .comment:hover { text-decoration: underline }
+.menuBox li:hover li a:hover { color: #fff; background: #227720 }
+.menuBox li li { padding: 0; text-transform: none; width: 100%; line-height: 16px; text-align: left; float: left }
+#contentCntr #page_title h1, #contentCntr #page_title h2, .annualBox li span, .awardBox, .blogBox .pic5 span, .blogBox .text3, .blogBox h1, .blogBox small, .bolgBox h1, .dataBox, .descriptionBox h1, .keywordBox ul, .mapBox .title, .newsBox h3, .opedBox h3, .pro_listBox h3, .projectBox .txt_cent, .projectBox h3, .searchBox fieldset, .search_dataBox fieldset, .sectorBox h1, .websiteBox h3 { text-align: center }
+.menuBox li:hover li a { padding: 5px 10px; border-top: 1px solid #ededed; margin: 0; display: block; color: #333; background: 0 0 }
+.menuBox li ul { padding: 0 0 0; margin: 0; position: absolute; left: 0; top: 48px; width: 200px; display: none; box-shadow: 0 0 5px rgba(0,0,0,.5); border: 1px solid rgba(0,0,0,.2); border-top: 0; background: #fff!important }
+.blogBox .list, .opeddataBox .list { border-top: 1px solid #eee; border-bottom: 1px solid #eee }
+#contentCntr, .descriptionBox { position: relative }
+.menuBox li li ul { left: 198px; top: 0; display: none }
+.menuBox li:hover ul { display: block }
+.menuBox li:hover li ul { display: none }
+.menuBox .item-124 ul { width: 820%; left: -345px }
+.menuBox .item-124 li { width: 33% }
+#contentCntr { padding-bottom: 20px; width: 100% }
+#contentCntr .sign_user { width: 100%; display: none }
+#contentCntr .sign_user img { width: 100%; opacity: .7 }
+#contentCntr #about_header { padding-top: 20px }
+#contentCntr #fe_banner { padding: 30px 0 21px }
+#contentCntr #work { padding: 0 0 21px }
+#contentCntr #fe_list { padding: 34px 0 20px; background: #f8f8f8 }
+#contentCntr #data_header { padding: 12px 0 20px }
+#contentCntr #event { padding: 30px 0 }
+#contentCntr #page_title { padding: 0 0 20px }
+#contentCntr #page_title h1 { margin: 0 }
+#contentCntr #page_title.article h1 { padding-top: 20px; color: #FF9C00 }
+#contentCntr #page_title h2 { margin: 0; color: #228043; font-size: 30px }
+#contentCntr #page_title.article h2 { padding-top: 20px; color: #FF9C00 }
+#contentCntr #pub_data { padding: 20px 0 }
+#contentCntr #page_title.event h1 { color: #83C01D }
+.blogBox .commnet, .opeddataBox .commnet a { color: #FF9C00 }
+.npBox .breadcrumbs { margin: 0; background: 0 0!important }
+.opeddataBox { padding-top: 10px }
+.opeddataBox .list li { padding-right: 20px; float: left }
+.opeddataBox .list ul { padding: 0; list-style: none }
+.opeddataBox .list { padding: 5px 0; margin-bottom: 20px; overflow: hidden }
+.opeddataBox .commnet { margin-left: 20px; color: #FF9C00 }
+.opeddataBox .gap_img { margin-bottom: 10px }
+.opeddataBox .post-summ { padding-bottom: 20px }
+.opeddataBox .pager { margin: 0 }
+.opeddataBox .pager a { padding: 0 10px }
+.blogBox .right-col .pic img { width: 90% }
+.blogBox #inlarge3 img { width: auto!important }
+.blogBox .facebook { width: 110px!important }
+.blogBox h1 { padding-bottom: 20px }
+.blogBox .align_center { margin: auto; display: block }
+.blogBox figure { padding: 10px 0 }
+.blogBox .socail_list { margin-bottom: 10px }
+.blogBox .proudiv { float: left }
+.blogBox figure img { margin: 0 auto 5px }
+.blogBox small { padding-top: 5px; display: block; line-height: 100% }
+.blogBox .project { padding-bottom: 10px!important }
+.blogBox .project ul { padding: 10px 0 0; list-style: none }
+.blogBox .light-tab, .blogBox li p { padding: 0 10px; margin-bottom: 10px; line-height: 20px }
+.blogBox .project li { padding-bottom: 0 }
+.blogBox .bg-info, .blogBox .dark-tab { padding: 5px 10px }
+.blogBox .dark-tab { margin-bottom: 10px }
+.blogBox .well.project { padding: 0 }
+.blogBox .project .pager { margin: 0 10px 0 0; padding: 0 }
+.blogBox .project .pager li>a { padding: 4px 10px }
+.blogBox ol, .blogBox ul { padding-left: 20px }
+.blogBox ul { list-style: square }
+.blogBox #gallery ul, .blogBox .en_right1 li { list-style: none }
+.blogBox li { padding-bottom: 5px }
+.blogBox h3 { margin: 0 0 10px }
+.blogBox .list li { padding-right: 20px; float: left }
+.blogBox .list ul { padding: 0; list-style: none }
+.blogBox .list { padding: 5px 0; margin-bottom: 20px }
+.blogBox small span { display: block }
+.blogBox .link { padding: 10px 0 }
+.blogBox .detail, .blogBox .form-horizontal { padding-top: 20px }
+.blogBox .left_inner { padding-right: 2%; width: 66%; float: left }
+.blogBox #image2, .blogBox .en_right1, .blogBox .en_right2, .blogBox .en_right2_new, .blogBox .en_right2_new22, .blogBox .lft, .blogBox .right-col { padding: 10px 0; width: 32%; margin-left: 68% }
+.blogBox .en_right1 { border: 1px solid #E3E3E3; overflow: hidden }
+.blogBox .pager li>a { margin-right: 10px }
+.blogBox .head2, .blogBox .head33_22, .head33 { margin: 10px 0; font-size: 22px; font-family: aller_lightregular }
+.blogBox .stormex { padding: 5px; background-color: #dff0d8; border: 1px solid #d6e9c6; font-size: 16px; font-family: aller_lightregular }
+.blogBox .headingreen5 { margin: 10px 0; font-size: 14px; font-family: aller_lightregular }
+.blogBox .marp { padding: 5px 20px; background: #eee }
+.blogBox .inner h1 { margin: 0 }
+.blogBox .img6 { float: left }
+.blogBox .text3 { padding-right: 10px; display: block; font-size: 12px; color: #428BCA }
+.blogBox .img { margin: 0 10px 10px 0!important; float: left }
+.blogBox #gallery li { padding-right: 5px; float: left }
+.blogBox .en_right2 #image2 { width: 100%; margin-right: 10px }
+.blogBox .lft .en_right1, .blogBox .lft .en_right2, .blogBox .right-col .en_right1, .blogBox .right-col .en_right2 { margin: 0; width: 100% }
+.blogBox #image2 img { width: 94%; margin: 0!important }
+.blogBox #inlarge3waterksd_ne img, .blogBox .left_inner #image2 img { width: auto }
+.blogBox .left_inner #image2 { width: auto; margin: 0 20px 10px 0!important }
+.blogBox .left_inner .pic, .blogBox .left_inner .pic5 { padding: 0 0 20px 2%; float: left; width: 45% }
+.blogBox .left_inner .pic img, .blogBox .left_inner .pic5 img { width: 96%; margin: auto }
+.blogBox .pic5 span { display: block }
+.pro_infoBox h1 { padding-bottom: 30px; color: #ff7301 }
+.pro_infoBox.event h1 { color: #83C01D }
+.pro_infoBox h3 { padding-bottom: 10px }
+.pro_infoBox .col-md-12 { padding-bottom: 20px }
+.pro_infoBox table address { padding-left: 20px }
+.pro_infoBox address { line-height: 26px; font-size: 14px }
+.pro_infoBox address strong { font-size: 18px; line-height: 24px; color: #ff7e38 }
+.pro_infoBox address a { color: #26C0F9 }
+.pro_infoBox address a:hover { color: #000 }
+.pro_infoBox address span { padding-bottom: 5px; color: #ff7e38; text-transform: uppercase; display: block }
+.descriptionBox .pdf_file { display: block; float: left; padding: 5px 0 5px 20px; color: #139AD9; background: url(../images/pdf1.png) left center no-repeat }
+.descriptionBox .top-box li div a:hover, .sectorBox li:hover { background: #efefef }
+.descriptionBox h1 { padding-bottom: 20px }
+.descriptionBox span { font-weight: 700 }
+.descriptionBox .image_top { position: absolute; right: 0; top: -50px; z-index: 9; display: none }
+.descriptionBox ul { padding: 10px 20px; list-style: square }
+.descriptionBox .top-box li div a { padding: 10px; font-size: 12px; line-height: 16px; border-bottom: 1px solid #eee; display: block }
+.descriptionBox .top-box li div { padding: 5px; margin: 5px 0; border: 1px solid #eee }
+.descriptionBox a { color: #26C0F9 }
+.descriptionBox object { width: 100%!important }
+.descriptionBox embed { width: 100%!important; height: 350px!important }
+.sectorBox h1 { padding-bottom: 20px }
+.sectorBox a { color: #139AD9 }
+.sectorBox li { padding: 10px 1%!important; width: 31%; margin: 0 1%; float: left; border-bottom: 1px solid #eee }
+.archivesBox #tree li h4, .archivesBox h5, .list_linkBox ul { margin-bottom: 0 }
+.sectorBox ul { padding: 0; margin: 0; overflow: hidden }
+.textBox { padding: 20px 0; font-size: 14px }
+.textBox .print { list-style: none }
+.textBox .print li { padding-left: 10px; float: left }
+.textBox .print img { box-shadow: none; -webkit-box-shadow: none }
+.textBox h2 { margin-top: 4px; font-size: 22px }
+.textBox h4 { font-size: 16px }
+.textBox a { color: #26C0F9 }
+.textBox img { box-shadow: 1px 1px 4px rgba(0,0,0,.5); -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,.5) }
+.textBox p { line-height: 20px; font-size: 14px }
+.textBox ul { padding-left: 20px; list-style: square }
+.textBox li { padding-bottom: 5px }
+.list_linkBox { padding: 0!important }
+.list_linkBox li { padding: 20px; border-bottom: 1px solid #DDD }
+.list_linkBox li h4 { padding: 0 }
+.list_linkBox p { font-size: 14px; line-height: 18px }
+.list_linkBox h4 { padding-left: 20px; font-family: allerregular }
+.list_linkBox .more { margin-right: 10px }
+.list_linkBox h3 { margin: 0 }
+.archivesBox { padding: 0!important }
+.archivesBox .panel { margin: 0; border: 0 }
+.archivesBox span { cursor: pointer; height: 13px; position: absolute; left: 0; top: 5px; width: 40%; display: inline-block; background: url(../images/archive_icon.png) left top no-repeat }
+.archivesBox .minus { background-position: 0 -26px }
+.archivesBox li { padding-left: 15px; background: url(../images/dotted.jpg) left 8px no-repeat; padding-bottom: 5px; line-height: 18px; width: 98%; position: relative; transition: none; -webkit-transition: none }
+.archivesBox #tree li { padding: 3px 0 0 18px; background: 0 0 }
+.archivesBox h4 { color: #fe5f27; text-transform: uppercase }
+.archivesBox h5 { padding-bottom: 5px }
+.archivesBox #tree li li { padding-left: 15px; background: url(../images/dotted.jpg) left 8px no-repeat }
+.archivesBox ul { padding: 10px 0 0 10px; margin: 0 }
+.archivesBox #tree { padding-left: 10px; list-style: none }
+.archivesBox .none { padding: 0 }
+.archivesBox ul ul { padding: 0; margin-top: 5px }
+.annualBox { width: 100%; height: 422px }
+.annualBox ul { padding: 17px 0; margin: 0; width: 100%; overflow: hidden }
+.annualBox h3 { text-transform: uppercase; margin: 0; display: inline-block; color: #83C01D; line-height: 40px }
+.annualBox li span, .annualBox li span a { display: block; color: #fff }
+.annualBox li span { position: absolute; left: 0; width: 100%; font-size: 24px; line-height: 28px; top: 45% }
+.flickrBox h2, .you_tubeBox h2 { text-transform: uppercase; color: #83C01D }
+.annualBox li { margin: 0 0 8px; padding: 0; position: relative; font-family: allerregular }
+.annualBox li:first-child { margin-top: 0 }
+.annualBox .view_btn { position: absolute; bottom: 0; top: auto }
+.flickrBox { padding-bottom: 20px; margin-bottom: 20px; position: relative; background: #e6f1f9 }
+.flickrBox .sap_gap { height: 10px; width: 100%; display: block }
+.flickrBox .img-responsive { height: 132px }
+.flickrBox h2 { margin: 0; font-size: 28px; line-height: 34px }
+.flickrBox .logo { position: absolute; right: 20px; top: 30px }
+.flickrBox .row, .you_tubeBox { position: relative }
+.flickrBox p { font-size: 14px; line-height: 22px }
+.flickrBox header { padding-top: 20px; border-top: 1px solid #eee }
+.flickrBox .pager { margin: 10px 15px 0 0 }
+.you_tubeBox { padding: 0; width: 100% }
+.you_tubeBox .col-md-4 { position: static }
+.you_tubeBox header { padding: 20px 10px }
+.you_tubeBox .video { width: 100%; position: relative }
+.you_tubeBox .play { width: 112px; height: 79px; display: none; text-indent: -99999px; margin: -40px 0 0 -65px; position: absolute; left: 50%; top: 50%; background: url(../images/play.png) left top no-repeat }
+.you_tubeBox .row { position: relative }
+.you_tubeBox h2 { margin: 0; font-size: 28px; line-height: 34px }
+.you_tubeBox h3 { line-height: 30px }
+.you_tubeBox p { font-size: 14px; line-height: 22px }
+.you_tubeBox .well-sm span { padding: 0 0 20px; color: #f94a4a; font-size: 16px; line-height: 20px; display: block; font-family: allerregular }
+.newsBox h5, .pro_listBox h4 { font-family: Arial, Helvetica, sans-serif }
+.you_tubeBox iframe { width: 100%; height: 300px }
+.you_tubeBox .view_btn { position: static }
+.eventabanBox { padding: 20px 0; margin-bottom: 20px; width: 100%; background: #ededed }
+.eventabanBox .container { padding: 0; box-shadow: 0 0 rgba(0,0,0,.8); background: #5f6e7a }
+.newsBox li:hover .block, .opedBox .block:hover, .pressBox .block:hover { box-shadow: 0 0 5px rgba(0,0,0,.3) }
+.eventabanBox .banner { background: #39393a }
+.eventabanBox .text { padding: 15px 2% }
+.eventabanBox h3 { margin: 0 0 10px; font-size: 20px; color: #fff }
+.eventabanBox .over { border: 5px solid #6fce0e; position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: none }
+.eventabanBox li img, .eventabanBox li.active .over, .newsBox p span, .opedBox .col-md-8 p strong { display: block }
+.eventabanBox p { font-size: 14px; line-height: 20px; color: #fff }
+.eventabanBox ul { margin: 0; padding: 8px; overflow: hidden }
+.eventabanBox li { margin-top: 6px; float: right; width: 100%; position: relative }
+.eventabanBox li:first-child { margin-top: 0 }
+.eventabanBox li img { float: right }
+.opedBox { padding: 30px 0; width: 100%; background: #faf8f2 }
+.opedBox h3 { padding-bottom: 20px; margin: 0; text-transform: uppercase; font-size: 22px; line-height: 26px; color: #ff9c00 }
+.opedBox .block { padding: 10px 10px 40px; position: relative; background: #fff }
+.opedBox h4 { font-size: 14px; font-size: 15px; min-height: 33px }
+.opedBox .block .row { padding: 10px; margin: 0; background: #ff9c00 }
+.opedBox .col-md-8 p { margin-bottom: 0; color: #fff }
+.opedBox .col-md-8 p a { color: #fff }
+.opedBox .pager a { padding: 0 10px }
+.opedBox .pager a:hover { color: #ff9c00 }
+.opedBox .col-md-4 img { width: 100%; height: auto }
+.opedBox p { color: #717476 }
+.opedBox .pad_top { padding: 10px 0 0 }
+.opedBox .link { padding: 0 5px; width: 100%; position: absolute; left: 0; bottom: 5px }
+.opedBox .link span { padding-bottom: 20px; line-height: 30px; color: #9b9d9f }
+.opedBox .link span a { display: block; color: #26C0F9 }
+.opedBox .link span a:hover { color: #139ad9 }
+.opedBox .pager { margin: 10px 15px }
+.newsBox { padding: 30px 0; width: 100% }
+.newsBox h3 { padding-bottom: 20px; margin: 0; text-transform: uppercase; font-size: 22px; line-height: 26px; color: #f96969 }
+.newsBox h5 { padding: 14px; margin: 0 0 18px; color: #414243; background: #f1f6f7; font-size: 14px; line-height: 18px }
+.newsBox .txt { padding: 0 10px }
+.newsBox ul { margin: 0; padding: 0 }
+.newsBox li .block { padding-bottom: 10px; border: 1px solid #dbdde1; background: #fff }
+.newsBox p { color: #717476; min-height: 130px; font-size: 15px }
+.newsBox p span { height: 40px; color: #9b9d9f }
+.newsBox .content { overflow: auto; position: relative; width: 100%; max-width: 100%; box-sizing: border-box }
+#footerCntr, .newsBox .content { -webkit-box-sizing: border-box; -moz-box-sizing: border-box }
+.newsBox .content.hidden { display: none }
+.newsBox .horizontal-images.content ul, .newsBox .vertical-images.content ul { margin: 0; padding: 0 0 5px; list-style: none; overflow: hidden }
+.newsBox .comment { color: #F96969 }
+.newsBox .pager { margin: 10px 15px }
+.newsBox .next a { padding: 0 10px }
+.newsBox .showdata { position: absolute; left: 0; top: 0 }
+.newsBox .more { margin-bottom: 0; font-size: 12px; display: inline-block }
+.newsBox small { height: 30px; display: block }
+.newsBox .showbox .close { right: 10px; top: 0 }
+.pressBox { padding: 30px 0; margin-top: 5px; width: 100%; background: #f1f6f7 }
+.pressBox h3 { padding-bottom: 20px; margin: 0; text-transform: uppercase; font-size: 22px; line-height: 26px; color: #139ad9; text-align: center }
+.pressBox .block { padding: 10px; background: #fff }
+.pressBox .block figure { display: none }
+.pressBox h5 { font-size: 16px; line-height: 20px }
+.pressBox p { color: #717476 }
+.pressBox .file { padding: 0 0 0 15px; font-size: 12px; color: #FF9C00; display: block; line-height: 16px; background: url(../images/pdf.png) left center no-repeat; background-size: 10%; -webkit-background-size: 25% }
+.pressBox .pager { padding-top: 10px; margin: 10px 15px }
+.pressBox p span { color: #9b9d9f }
+.pressBox .next a { padding: 0 10px }
+.search_dataBox { padding: 20px 0; width: 100%; background: #eaedf0 }
+.search_dataBox label { padding: 0 1%; margin: 0; font-weight: 400; font-size: 14px; line-height: 36px; color: #818385 }
+.search_dataBox input { padding: 5px 1%; height: 38px; font-size: 14px; color: #bfc1c3; margin: 0; width: 40%; display: inline-block; border: 1px solid #dbdde1 }
+.search_dataBox .col-md-10 { padding-bottom: 21px; float: none; margin: auto }
+.search_resultBox .list-group, .search_resultBox .table { margin-bottom: 0 }
+.search_dataBox button { padding: 0; height: 38px; font-size: 14px; margin: 0; font-weight: 700; color: #fff; width: 8%; border: 0; vertical-align: top; background: #7be013 }
+.search_dataBox button:hover { background: #67c309 }
+.search_dataBox .sec .DivSelectyze { width: 60% }
+.DivSelectyze:active, .search_dataBox input:focus { color: #000; box-shadow: 1px 1px 4px rgba(0,0,0,.2); background: #f8f8f8 }
+.search_resultBox h3 { margin: 0; padding: 0; font-size: 18px }
+.search_resultBox h3 span { padding-left: 10px; font-size: 18px }
+.search_resultBox .search_word { padding: 0 5px; color: #fff; background: #428bca }
+.search_resultBox p { font-size: 15px }
+.search_resultBox p a { color: #26C0F9 }
+.search_resultBox p a:hover { color: #139ad9 }
+.search_resultBox .alert { padding: 5px 10px; margin: 0; border-radius: 0; border-bottom: 0 }
+.search_resultBox .list-group-item { border: 0; border-radius: 0; border-top: 1px solid #DDD }
+.search_resultBox .list-group-item:first-child { border-top: 0 }
+.paginationBox .gaap { margin: 0 10px 10px 0 }
+.paginationBox .pagination { margin: 0 }
+.websiteBox { padding-bottom: 30px }
+.websiteBox .alert-success a { font-weight: 700; color: #139AD9 }
+.websiteBox .alert-success a:hover { color: #000 }
+.websiteBox .text { padding: 10px }
+.websiteBox h3 { margin: 0; font-size: 16px; height: 30px }
+.websiteBox img { cursor: pointer; margin: auto; width: 100%!important }
+.websiteBox ul { margin: 0; padding: 0; overflow: hidden }
+.websiteBox li { width: 100%; float: left; transition: none; -webkit-transition: none }
+.websiteBox .flex-control-nav, .websiteBox .slides>li { display: none }
+.websiteBox .flexslider { padding-bottom: 30px; position: relative }
+.websiteBox .flex-direction-nav li a { bottom: 0; top: auto; line-height: 20px; width: auto; text-indent: 0; height: auto; display: block; padding: 5px 14px; border: 1px solid #ddd; border-radius: 15px; background: #fff }
+.websiteBox .flex-direction-nav li a:hover { background: #eee }
+.websiteBox .flex-direction-nav li a.flex-prev { left: 20px }
+.websiteBox .flex-direction-nav li a.flex-next { right: 20px }
+.websiteBox.you_tube { padding: 20px 0 }
+.websiteBox .thumbnail .caption { padding: 10px 1px }
+.bolgBox figure img { margin: auto }
+.projectBox .pager, .projectBox h4 { margin: 0 }
+.bolgBox ul { list-style-type: square }
+.projectBox { padding: 20px 0 }
+.projectBox .pager li { padding: 0; border: 0 }
+.projectBox .pager a { border: 0; margin: 0; color: #139AD9; font-size: 12px }
+.projectBox .pager li:hover { background: 0 0 }
+.projectBox.spacer { background: #f1f6f7 }
+.projectBox td { height: 80px; -webkit-transition: all .5s ease-in-out; font-size: 14px; line-height: 18px; vertical-align: middle!important; background: 0 0 }
+.keywordBox li, .projectBox td { transition: all .5s ease-in-out }
+.projectBox td.no_pad { padding: 0 }
+.projectBox ul { overflow: hidden }
+.projectBox li { padding: 10px 1%; position: relative; border-bottom: 1px solid #DDD; width: 98%; float: left }
+.projectBox li li { border-bottom: 0; width: auto; float: none }
+.dataBox, .projectBox .col-md-3 img { width: 100% }
+.projectBox li:hover { color: #3D3F42; background: #f3f3f3 }
+.projectBox li:hover td a, .projectBox tr:hover td a { color: #139AD9 }
+.projectBox h3, .projectBox th { text-transform: uppercase; color: #139ad9 }
+.projectBox .col-md-9 { vertical-align: middle }
+.projectBox h3 { padding-bottom: 30px; font-size: 22px; line-height: 24px }
+.projectBox th { position: relative; font-weight: 400; font-size: 15px; border-bottom: 1px solid #4dbbe9!important }
+.projectBox.green th { color: #6abf12; border-bottom: 1px solid #6abf12!important }
+.projectBox.green h3 { color: #6abf12 }
+.projectBox .img_auto img { margin: 0 auto; display: block }
+.projectBox p { margin-bottom: 4px }
+.projectBox .tag { color: #6e7275; text-transform: none }
+.eventBox h3, .infoBox h3, .jobBox h3, .keywordBox li, .latestproBox h3, .opinionBox .nav-tabs li, .opinionBox .tab-content .more_link a, .storieBox h5, .tech_infoBox h3, .updateBox h3, .workBox h3 { text-transform: uppercase }
+.projectBox.search td td:hover, .projectBox.search td:hover td { background: 0 0!important }
+.projectBox address { margin-bottom: 10px }
+.projectBox address span { display: block }
+.projectBox.green .pager a, .projectBox.green tr:hover a { color: #6ABF12 }
+.projectBox .line_none td { border: 0 }
+.dataBox { padding: 0 0 14px }
+.dataBox h1 { padding-bottom: 16px; margin: 0; color: #d054f9; line-height: 40px; font-size: 30px }
+.dataBox.headnews h1 { color: #F96969 }
+.dataBox.press h1 { color: #139AD9 }
+.dataBox p { padding: 0 10%; color: #727576; font-size: 16px; line-height: 20px }
+.keywordBox { background: #dadee2 }
+.keywordBox ul { margin: 0; padding: 0 }
+.keywordBox li { display: inline; -webkit-transition: none; font-size: 14px; line-height: 36px; color: #fff }
+.keywordBox li.disabled strong { font-weight: 400; min-width: 31px; display: inline-block }
+.keywordBox li a { display: inline-block; position: relative; min-width: 31px; color: #818385 }
+.keywordBox li a:hover, .keywordBox li.active a { font-weight: 700; color: #0da7e3; text-decoration: none; background: #fefeff; background: -moz-linear-gradient(top, #fefeff 0, #fafafa 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fefeff), color-stop(100%, #fafafa)); background: -webkit-linear-gradient(top, #fefeff 0, #fafafa 100%); background: -o-linear-gradient(top, #fefeff 0, #fafafa 100%); background: -ms-linear-gradient(top, #fefeff 0, #fafafa 100%); background: linear-gradient(to bottom, #fefeff 0, #fafafa 100%); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefeff', endColorstr='#fafafa', GradientType=0)
+}
+.keywordBox li a:hover span, .keywordBox li.active span { width: 42px; height: 9px; position: absolute; left: -5px; background: url(../images/key_top.png) left top no-repeat; background-size: contain; -webkit-background-size: contain }
+.keywordBox li a:hover .top, .keywordBox li.active a .top { top: -9px }
+.keywordBox li a:hover .bottom, .keywordBox li.active a .bottom { bottom: -9px; background: url(../images/key_bottom.png) left bottom no-repeat }
+.presslistBox { padding: 12px 0 14px; position: relative; width: 100% }
+.presslistBox .pdf { width: 29px; height: 40px; display: block; text-indent: -999999px; position: absolute; right: 0; bottom: 0; background: url(../images/pdf.png) left top no-repeat }
+.presslistBox li, .presslistBox td { position: relative }
+.presslistBox ul { margin: 0; padding: 0; list-style: none }
+.presslistBox li { padding: 20px 0; border-bottom: 1px solid #eee; float: left; width: 100% }
+.presslistBox li img { margin: 0 auto 10px }
+.presslistBox p { padding: 0 15px 0 0 }
+.presslistBox h4 { padding-bottom: 10px; margin: 0 }
+.presslistBox div { position: static }
+.presslistBox .date { padding-bottom: 10px; display: block; font-size: 12px; line-height: 20px; color: #909293 }
+.presslistBox li:hover a, .presslistBox li:hover p { color: #3D3F42 }
+.searchBox { padding: 26px 0 10px; width: 100%; background: #eaedf0 }
+.searchBox .form-control { padding: 10px 10px 10px 5px; height: 39px }
+.searchBox label { padding: 0 1%; margin: 0; font-weight: 400; font-size: 14px; line-height: 36px; color: #818385 }
+.searchBox .col-md-10 { padding-bottom: 21px; float: none; margin: auto }
+.searchBox input { padding: 5px 1%; height: 38px; font-size: 14px; color: #bfc1c3; margin: 0; display: inline-block; border: 1px solid #dbdde1 }
+.searchBox .drop_first, .searchBox .drop_sec { float: none!important; display: inline-block!important }
+.searchBox .drop_first { width: 20% }
+.searchBox .drop_sec { width: 50% }
+.searchBox input[type=submit] { padding: 0; margin: 0; font-weight: 700; color: #fff; width: 8%; vertical-align: top; background: #7be013 }
+.mapBox, .mapBox ul, .searchBox .input-append input { width: 100% }
+.searchBox input[type=submit]:hover { background: #67c309 }
+.searchBox .input-append { display: inline-block; float: none!important }
+.searchBox .cal { cursor: pointer; background: url(../images/cal_icon.png) right center no-repeat #fff }
+.searchBox .form-control[readonly] { padding-left: 10px; cursor: pointer!important; background-color: #fff }
+.mapBox ul { margin: 0; padding: 0; overflow: hidden }
+.mapBox li { width: 18%; float: left; font-size: 14px; line-height: 38px }
+.pro_listBox h4, .pro_listBox p { line-height: 20px }
+.mapBox li span { width: 30px; height: 10px; margin-right: 10px; top: 14px; position: relative; float: left; background: #fa6666 }
+.awardBox, .jobBox, .mediafaqBox, .pro_listBox, .workBox { width: 100% }
+.mapBox li.regional span { background: #ffa800 }
+.mapBox li.global span { background: #38c4ff }
+.mapBox li.teri span { background: #01da76 }
+.mapBox .panel-title { position: relative; background: url(../images/map_bg.jpg) }
+.mapBox .map2 object { margin: 0 auto; display: block }
+.mapBox .title { position: absolute; left: 0; color: #6a6b68; bottom: 20px; display: block; width: 100% }
+.pro_listBox { padding: 34px 0 20px; background: #f8f8f8 }
+.pro_listBox .line { border-right: 1px solid #eee }
+.pro_listBox ul { padding: 0 30px; overflow: hidden }
+.pro_listBox h3 { padding: 0 0 20px; margin: 0; color: #1ec3f9 }
+.pro_listBox h4 { font-size: 16px }
+.workBox a, .workBox p { font-family: aller_lightregular }
+.pro_listBox li:hover { color: #2a2c2d }
+.pro_listBox li:hover a { color: #139AD9 }
+.pro_listBox li { padding: 5px 0; min-height: 140px; border-bottom: 1px solid #eee }
+.pro_listBox p span { display: block }
+.workBox h3 { padding: 0 0 16px 10px; margin: 0; color: #139ad9 }
+.workBox .panel { margin: 0; height: 284px; border-radius: 0; -webkit-border-radius: 0 }
+.workBox p { color: #547a88; font-size: 18px }
+.workBox .panel-footer { background: 0 0 }
+.workBox ul { margin: 0; padding: 0; list-style: none }
+.workBox li { padding-right: 10px; float: left }
+.workBox a { color: #23c5fa; font-size: 16px; line-height: 22px }
+.workBox .read { padding-right: 30px; background: url(../images/arrow_left.png) right center no-repeat }
+.jobBox h3 { padding-bottom: 10px; color: #ffa902 }
+.jobBox td { color: #7b7d7f }
+.jobBox td a { color: #ff7f02 }
+.mediafaqBox li { border-bottom: 1px solid #fe6a6a }
+.mediafaqBox h4 { color: #fe6a6a }
+.awardBox { margin-top: 10px!important }
+.awardBox h1 { padding: 92px 0 10px; margin-top: 0; color: #d054f9; line-height: 40px; font-size: 30px; background: url(../images/award_icon.png) center top no-repeat }
+.awardBox .notic_block .panel-title, .awardBox p { font-size: 16px }
+.awardBox.people h1 { color: #6fb5d2; background: url(../images/peop_img.png) center top no-repeat }
+.awardBox.work h1 { color: #ffa902; background: url(../images/work_bag.png) center top no-repeat }
+.awardBox.map h1 { color: #15e8a5; background: url(../images/map_icon.png) center top no-repeat }
+.awardBox.media h1 { color: #fe6a6a; background: url(../images/media.png) center top no-repeat }
+.awardBox.notice h1 { color: #2ba2d7; background: url(../images/notice_icon.png) center top no-repeat }
+.awardBox p { padding: 0 20px; color: #727576; font-family: Arial, Helvetica, sans-serif; line-height: 24px }
+.awardBox .col-md-6 p, .awardBox .panel-body ul { padding: 0; text-align: left }
+.awardBox .notic_block, .awardBox.work p { text-align: left }
+.awardBox.map .blog td { width: auto!important }
+.awardBox .media-kit li { margin-left: 20px; display: inline; font-size: 14px; font-family: allerbold }
+.awardBox .media-kit li a { text-decoration: underline }
+.awardBox .media-kit li a:hover { text-decoration: none }
+.awardBox .map_data { text-align: left }
+.awardBox .panel-body ul { margin: 0; list-style: none }
+.awardBox .notic_block li, .awardBox .panel-body li { padding-left: 2%; margin-bottom: 5px; float: left; width: 23%; font-size: 16px; background: url(../images/dotted.jpg) left 10px no-repeat }
+.awardBox .panel { margin-top: 20px }
+.awardBox .notic_block li { width: 98% }
+.awardBox .notic_block li a { color: #139ad9 }
+.awardBox .notic_block li a:hover { color: #000 }
+.awarddataBox { padding-top: 24px; width: 100% }
+.awarddataBox .modal-content { padding: 10px }
+.awarddataBox .list { padding: 10px; height: 100%; border: 1px solid #dbdee1; background: #f8f9f9 }
+
+.awarddataBox .col-sm-4 { margin-bottom: 30px; }
+
+.awarddataBox .bichme .list { text-align: center; }
+.awarddataBox .readmore { text-align: center; display: inline-block }
+.awarddataBox.people .tab-content > .tab-pane .flex-block   { display:flex; align-content: stretch; align-items: stretch; flex-wrap: wrap;  }
+.awarddataBox h5 { margin: 10px 0 0; font-family: allerbold; font-weight: 400; color: #727576; line-height: 20px }
+.infodataBox .dgg p { padding: 5px 0; margin: 0; }
+.awarddataBox .nav li, .awarddataBox h5 span, .infodataBox p, .sub_linkBox p, .terilinkBox .link a { font-family: aller_lightregular }
+.awarddataBox h5 strong { padding-bottom: 5px; display: block }
+.awarddataBox h5 span { display: block }
+.awarddataBox p { color: #727576 }
+.awarddataBox p a { color: #26c0f9; cursor: pointer }
+.awarddataBox p a:hover { color: #000 }
+.awarddataBox img { margin: 0 auto; display: block }
+.awarddataBox.people img { border: 1px solid #d3d4d4; padding: 5px; width: 100px; height: 100px }
+.awarddataBox ul { margin: 0 0 10px; text-align: center }
+.awarddataBox .nav li { padding: 0 10px; float: none; display: inline; font-size: 18px; line-height: 24px }
+.awarddataBox .nav li a { color: #61696d }
+.awarddataBox .nav li.active a, .awarddataBox .nav li:hover a { color: #56b2d8!important; border-bottom: 4px solid #56b2d8; background: 0 0!important }
+.awarddataBox .heading { margin-bottom: 20px; border-bottom: 1px solid #DBDEE1 }
+.terilinkBox { padding: 20px 0 30px; margin-bottom: 90px; position: relative; border-bottom: 3px solid #cadce7 }
+.terilinkBox img { margin: auto; display: block }
+.terilinkBox strong.glyphicon { display: block!important; left: 24% }
+.terilinkBox .link { text-align: center; position: absolute; left: 0; bottom: -75px }
+.terilinkBox .link a { padding: 40px 20px 0; line-height: 26px; text-align: center; width: 130px; height: 150px; display: inline-block; color: #fff; font-size: 22px; background: url(../images/teri.png) left top no-repeat }
+.terilinkBox .link .work { margin-left: -7px; background: url(../images/work.png) left top no-repeat }
+.terilinkBox .link a span { display: block }
+.terilinkBox .link a:hover { color: #000; text-decoration: none }
+.infodataBox { padding: 40px 0 }
+.infodataBox p { padding: 10px 2% 20px 0; color: #656a6e; font-size: 14px; line-height: 20px }
+.infodataBox h3 { color: #657175; margin: 0; font-size: 22px }
+.infodataBox h4 { padding-top: 5px; color: #657175; margin: 0 }
+.infodataBox li { padding-bottom: 10px }
+.infodataBox ul { padding: 0 }
+.infodataBox .panel-body { padding: 6px }
+.infodataBox .panel-body .no_pad { margin-right: 5px }
+.infodataBox .panel-body h5 { padding-top: 4px; margin: 0 }
+.sub_linkBox { padding: 40px 0 18px; background: #eaf4f6 }
+.sub_linkBox p { padding: 20px 0; text-align: center; color: #656a6e; font-size: 18px; line-height: 22px }
+.sub_linkBox .hexagon { margin: auto }
+.certificatBox { margin-bottom: 20px }
+.certificatBox .col-md-11, .certificatBox .col-sm-11 { padding: 0!important; float: none!important; margin: 0 auto; background: #f8eeda }
+.certificatBox .col-md-5 { padding: 8px; overflow: hidden; background: #f8eeda }
+.certificatBox span { font-size: 24px; display: block; line-height: 28px; font-family: allerbold; color: #000; text-align: center }
+.certificatBox .col-md-7 { padding: 15px 25px 11px; background: #f6a302 }
+.certificatBox p { padding: 0 10px; font-size: 14px; line-height: 18px; color: #fff }
+.certificatBox ul { margin: 0; padding: 0; list-style: none; text-align: center }
+.certificatBox li { padding: 0 5px; text-align: center; display: inline; font-size: 14px; color: #fff }
+.certificatBox li a { color: #fff; font-family: allerbold }
+.certificatBox li:first-child { background: 0 0 }
+.certificatBox .over { position: absolute; left: 40.4%; top: 0; z-index: 11 }
+.certificatBox .over1 { position: absolute; left: 40.4%; bottom: 0; z-index: 11 }
+#bannerCntr #areaText, .infoBox, .search_resultBox, .storieBox { position: relative }
+.certificatBox .col-md-6 img { margin: auto; display: block }
+.search_resultBox { padding: 24px 0 27px; overflow: hidden }
+.infoBox { padding-bottom: 27px; overflow: hidden }
+.infoBox h3 { padding-bottom: 4px; color: #139ad9; font-size: 22px }
+.infoBox p { padding-bottom: 10px; color: #727576; font-size: 14px; line-height: 22px }
+.infoBox .vision h3 { color: #bf6afb }
+.infoBox .mission h3 { color: #ff8a00 }
+.infoBox .vision span { padding: 10px 0; line-height: 30px; display: block; font-size: 22px; color: #6c588a; font-family: aller_lightitalic }
+.infoBox .mission p:first-letter { padding-right: 10px; font-size: 32px; font-family: aller_lightregular; line-height: 36px }
+.infoBox .mission p { padding-bottom: 4px }
+#bannerCntr { padding-bottom: 50px; width: 100% }
+#bannerCntr iframe { width: 100%!important; border: 0; margin: 0; padding: 0; overflow: hidden; height: 407px!important }
+.newsdataBox, .storieBox figure { border: 1px solid #dbdde1 }
+.storieBox { overflow: hidden }
+.storieBox ul { margin: -20px 0 0; padding: 0; overflow: hidden }
+.storieBox h5 { padding: 0 13px; font-family: Arial, Helvetica, sans-serif; line-height: 38px; margin: 0; color: #fff; position: absolute; left: 0; top: 0; background: #ff4343 }
+.storieBox li { float: left; width: 47%; margin-top: 20px; position: relative; background: #112702 }
+.storieBox .big_data { width: 100% }
+.storieBox figure img { width: 100%; transition: all .4s ease-in-out; -webkit-transition: all .4s ease-in-out }
+.storieBox .title { padding: 5px 2% 5px 5%; line-height: 18px; display: block; width: 100%; color: #fff; z-index: 1; position: absolute; left: 0; bottom: 0; background: url(../images/trans1.png) }
+.storieBox .social { position: absolute; left: 0; z-index: 99999; transition: all .5s ease-in-out; -webkit-transition: all .4s ease-in-out; text-align: center; top: 38%; width: 100%; opacity: 0; filter: alpha(opacity=0) }
+.storieBox .social img { display: inline }
+.storieBox .more { padding: 0 8px; color: #fff; line-height: 24px; margin-top: 8px; display: inline-block; background: #76cc1e }
+.storieBox .more:hover { color: #fff; text-decoration: none; background: #65a325 }
+.storieBox li:hover .social { opacity: 1; filter: alpha(opacity=100) }
+.storieBox li:hover figure img { opacity: .5; filter: alpha(opacity=50) }
+.storieBox li:hover .title { filter: alpha(opacity=40); opacity: .4 }
+.newsdataBox { overflow: hidden; z-index: 1; position: relative }
+.newsdataBox img { width: 100% }
+.newsdataBox .text { padding: 10px; position: absolute; left: 0; bottom: 0; background: #5f6e7a }
+.newsdataBox .text p { color: #fff; width: auto; padding: 0; margin: 0 }
+.newsdataBox h2 { margin: 0 }
+.newsdataBox p { padding: 5px 0 0; width: 69%; font-size: 14px; line-height: 18px }
+.newsdataBox .read { padding-right: 30px; color: #fff; font-size: 14px; position: absolute; bottom: 3px; right: 8px; background: url(../images/news_arrow.png) right center no-repeat }
+.bannerBox { border: 5px solid #83c01d; z-index: 1; position: relative }
+.bannerBox ul { margin: 0; padding: 15px 0 0; overflow: hidden }
+.bannerBox.fe_banner ul { padding: 0 }
+.bannerBox .text { padding: 68px 0 0 46px; color: #1e2730; position: absolute; left: 0; top: 0 }
+.bannerBox .text.white_text { color: #fff }
+.bannerBox h4 { padding-bottom: 10px; margin: 0; font-size: 30px; line-height: 28px }
+.bannerBox p { padding: 5px 0 0; font-size: 14px; line-height: 20px }
+.bannerBox p a { color: #fff; text-decoration: underline }
+.DivSelectyze .selectyzeValue, .DivSelectyze li a, .bannerBox p a:hover, .eventBox .link p a:hover, .latestproBox h3 a:hover, .updateBox .block:hover h4 a { text-decoration: none }
+.bannerBox .list { float: none; margin: auto; border-top: 0 }
+.bannerBox .list li { float: left; width: 25%; line-height: 30px; text-align: center; transition: none; -webkit-transition: none; border: 3px solid #f78f07; border-left: 1px solid #f78f07; position: relative; background: #fff }
+.bannerBox .carousel-control { position: absolute; opacity: .5; top: 50%; margin-top: -37px; width: 50px; height: 50px; display: block; background: url(../images/ban_prev.png) left top no-repeat; background-size: contain; -webkit-background-size: contain }
+.bannerBox .carousel-control.right { right: 0; background: url(../images/ban_next.png) left top no-repeat; background-size: contain; -webkit-background-size: contain }
+.bannerBox .carousel-control span { display: none }
+.bannerBox:hover .carousel-control span { display: block }
+.bannerBox .carousel-indicators { margin: 0; left: 40px; bottom: 40px; width: auto }
+.bannerBox .prev_crl { left: 0 }
+.bannerBox.fe_banner { border: 0 }
+.bannerBox.fe_banner li { display: none }
+.bannerBox.fe_banner img { width: 100% }
+.bannerBox .list li:first-child { border-left: 3px solid #f78f07 }
+.bannerBox .list li a { padding: 15px 0; color: #4d5459; display: block; font-size: 18px; font-family: aller_lightregular }
+.bannerBox .fe_text p, .bannerBox .fe_text p a, .bannerBox .list li.active a { color: #fff }
+.bannerBox .list li.active, .bannerBox .list li:hover { padding: 3px 0 0 1px; color: #fff; border-left: 0; border-top: 0; background: #fdb802; background: -moz-linear-gradient(top, rgba(253,184,2,1) 0, rgba(247,143,7,1) 99%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(253,184,2,1)), color-stop(99%, rgba(247,143,7,1))); background: -webkit-linear-gradient(top, rgba(253,184,2,1) 0, rgba(247,143,7,1) 99%); background: -o-linear-gradient(top, rgba(253,184,2,1) 0, rgba(247,143,7,1) 99%); background: -ms-linear-gradient(top, rgba(253,184,2,1) 0, rgba(247,143,7,1) 99%); background: linear-gradient(to bottom, rgba(253,184,2,1) 0, rgba(247,143,7,1) 99%); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdb802', endColorstr='#f78f07', GradientType=0);}
+.flexslider:hover .flex-prev:hover, .latestproBox .flex-direction-nav a, .latestproBox .flexslider1:hover .flex-next:hover { opacity: 1; filter: alpha(opacity=100); }
+.bannerBox .arrow { display: none; width: 19px; height: 11px; position: absolute; left: 50%; margin-left: -10px; top: -11px; background: url(../images/ban_sap.png) center top no-repeat; }
+.bannerBox li.active .arrow { display: block; }
+.bannerBox .bot_list ul li.sec_none, .bannerBox .flex-direction-nav { display: none; }
+.bannerBox .bot_list { position: absolute; left: 0; bottom: -40px; width: 100%; z-index: 99; }
+.bannerBox .carousel-indicators li { margin: 0; width: 17px; height: 17px; border: 0; background: url(../images/dot3.png) left bottom no-repeat }
+.bannerBox .carousel-indicators li.active { background-position: 0 top }
+.bannerBox .flex-control-nav { padding: 10px 0 5px; overflow: hidden; width: 100%; text-align: center; margin: 0; list-style: none; position: absolute; left: 0; bottom: 0; z-index: 999; background: url(../images/trans.png) }
+.bannerBox.fe_banner .flex-control-nav { background: url(../images/fe_dot.png) left bottom repeat-x }
+.bannerBox .flex-control-nav li { padding: 0 1px; display: inline; float: none }
+.bannerBox .flex-control-nav li a { width: 17px; cursor: pointer; height: 17px; display: inline-block }
+.bannerBox .flex-control-nav li a span { display: block; width: 17px; float: none; height: 17px; text-indent: -99999px; background: url(../images/dot.png) left bottom no-repeat }
+.bannerBox .flex-control-nav li a.flex-active span { background-position: 0 top }
+.bannerBox .fe_text { padding: 10px; position: absolute; left: 0; bottom: 30px; background: rgba(0,0,0,.6) }
+.bannerBox .fe_text p { width: auto; padding: 0; margin: 0 }
+.bannerBox .fe_text p .more { color: #26C0F9 }
+.bannerBox .live-btn { position: absolute; left: 188px; bottom: 74px;  }
+.bannerBox .know-more { position: absolute; left: 60px; bottom: 74px; }
+.bannerBox .live-btn1 { position: absolute; left: 562px; bottom: 36px; }
+.bannerBox .know-more1 { position: absolute; left: 435px; bottom: 36px; }
+
+
+
+
+.bannerBox .fe_text p .more:hover { color: #fff }
+.bannerBox .link { font-size: 14px; line-height: 18px; position: absolute; right: 10px; bottom: 5px; color: #fff; z-index: 999 }
+.opinionBox { width: 100% }
+.opinionBox h3 { padding: 0 12px; text-transform: uppercase; margin: 0; display: inline-block; color: #fff; line-height: 40px; background: #ffa800 }
+.opinionBox .tad_data { padding-top: 18px; width: 100% }
+.opinionBox ul { margin: 0; border: 0!important }
+.opinionBox small { color: #676A6E }
+.opinionBox .nav-tabs li { margin: 0 }
+.opinionBox .nav-tabs li a { padding: 0 10px; margin: 0!important; height: 40px; color: #184059; font-size: 14px!important; border-radius: 0!important; border: 0!important; font-family: aller_lightregular; transition: none; -webkit-transition: none; display: block }
+.opinionBox .nav-tabs li a span { padding: 0 3px 5px; margin: 0; display: block; line-height: 35px!important }
+.opinionBox .nav-tabs li.active a, .opinionBox li a:hover { color: #184059; box-shadow: 1px -3px 5px rgba(0,0,0,.2); background: #fff!important }
+.opinionBox .nav-tabs li.active span { padding-bottom: 0; border-bottom: 5px solid #184059 }
+.opinionBox .tab-content { padding-top: 10px; box-shadow: 0 0 4px rgba(0,0,0,.2); border: 0!important; overflow: auto; height: 320px; background: #fff }
+.opinionBox .tab-content ul { margin: 0; padding: 0; overflow: hidden }
+.opinionBox .tab-content li { padding: 10px 0; margin: 0; width: 100%; cursor: pointer; position: relative; float: left }
+.opinionBox .tab-content p { padding-bottom: 7px; margin: 0; line-height: 16px }
+.opinionBox .tab-content p span { color: #939393; font-size: 12px }
+.opinionBox .tab-content .text { padding-top: 5px }
+.opinionBox .tab-content figure { border: 3px solid #f1f4f7; width: 92% }
+.opinionBox .tab-content figure img, .updateBox, .updateBox figure img { width: 100% }
+.opinionBox .tab-content li:hover { background: #f7f7f7; color: #26C0F9 }
+.opinionBox .tab-content .col-md-3 { padding-left: 10px }
+.opinionBox .tab-content .more_link { padding: 4px 0; margin: 0 15px; border-top: 1px solid #d4d8de; overflow: hidden }
+.opinionBox .tab-content .more_link a { font-size: 12px; line-height: 20px; color: #ff7200; font-family: aller_lightregular }
+.opinionBox .tab-content .more_link a:hover { color: #000; text-decoration: none }
+.opinionBox .same_data .col-md-3 { top: 50%; margin-top: -10%; left: 0; position: absolute }
+.opinionBox .same_data p span { padding-bottom: 10px; display: block; border-bottom: 1px solid #eee }
+.eventBox h3, .updateBox .link img, .updateBox h3 { display: inline-block }
+.opinionBox .same_data p { line-height: 18px }
+.updateBox h3 { padding: 0 12px; margin: 0; color: #fff; line-height: 40px; background: #2bcb6c }
+.updateBox .block { overflow: hidden; padding: 9px 8px 27px; height: 360px; position: relative; box-shadow: 0 0 5px rgba(0,0,0,.3); -webkit-box-shadow: 0 0 5px rgba(0,0,0,.3); background: #fff; border: 1px solid #ccc }
+.updateBox .block:hover { padding: 9px 8px 27px; border: 1px solid #adb4bc; box-shadow: none; -webkit-box-shadow: none }
+.updateBox .block:hover, .updateBox .block:hover a { color: #3d3f42 }
+.updateBox .row { padding: 19px 8px 0 0 }
+.updateBox p { padding-bottom: 5px; font-size: 14px; line-height: 20px }
+.updateBox h4 { padding-top: 6px; font-size: 17px; line-height: 22px }
+.updateBox h4 a { transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out }
+.updateBox .block:hover h4 a { color: #139AD9 }
+.updateBox .link { width: 98.5%; position: absolute; left: .5%; bottom: .5% }
+.updateBox .star { margin-left: 6% }
+.updateBox .star img { padding-right: 3.7% }
+.updateBox .link a { margin-left: 1px; float: right }
+.updateBox .col-md-4 { padding: 0 10px!important }
+.eventBox { width: 100% }
+.eventBox h3 { margin: 0; color: #83C01D; line-height: 40px }
+.eventBox.fe_event h3 { line-height: 30px }
+.eventBox li { padding: 15px 0 5px; margin-bottom: 7px; border: 1px solid #d5dae1; min-height: 89px; width: 100%; float: left; background: #fff }
+.eventBox li:hover { color: #3d3f42; border: 1px solid #adb4bc }
+.eventBox li:hover a { color: #139AD9 }
+.eventBox.fe_event li { padding-top: 10px; min-height: 74px }
+.eventBox li .col-lg-4 { padding-top: 20px }
+.eventBox ul { padding: 17px 0 0; margin: 0; overflow: hidden }
+.eventBox.fe_event ul { padding-top: 12px }
+.eventBox .web { padding-top: 10px }
+.eventBox .web h3 { color: #ff9600!important }
+.eventBox .web .icon { background: url(../images/icon1.png) left top no-repeat }
+.eventBox .web li.active span { border: 1px solid #ff9600 }
+.eventBox .icon { width: 26px; height: 25px; text-indent: -99999px; position: absolute; left: 50%; top: -26px; border: 0; margin: 0 0 0 -12px; background: url(../images/icon.png) left top no-repeat }
+.eventBox span { padding: 5px 0; display: block; border: 1px solid #c6cfda; line-height: 14px; text-align: center; border-radius: 4px; -webkit-border-radius: 4px; position: relative; font-size: .9em }
+.eventBox li.active .icon { border: 0!important; background-position: 0 -25px }
+.eventBox li.active span { border: 1px solid #83C01D }
+.eventBox li.active address span, .tech_infoBox td { border: 0 }
+.eventBox .link { padding-top: 5px; margin-bottom: 7px }
+.eventBox .link p { padding: 0; color: #fff; margin: 0; line-height: 16px; background: #ff9600 }
+.eventBox .link strong { padding: 0 4px; display: inline }
+.eventBox .link p a { padding: 15px 10px; font-weight: 700; color: #fff; display: block }
+.eventBox address, .eventBox address span { padding: 0; margin: 0; line-height: 16px; font-size: 12px }
+.eventBox .link p a:hover { color: #000 }
+.eventBox address { color: #7c7c7c }
+.eventBox address span { border: 0; text-align: left }
+.eventBox.event li { padding-top: 10px; min-height: 106px }
+.eventBox.event .event-padd { padding-top: 30px }
+.eventBox.event p { margin-bottom: 5px; font-weight: 700 }
+.eventBox .view_btn { margin-left: 10px; position: static }
+
+.tech_infoBox { padding-bottom: 30px; overflow: hidden }
+.tech_infoBox table { width: 100% }
+.tech_infoBox h1 { padding-top: 20px }
+.tech_infoBox .mar_auto { margin: 40px auto; float: none }
+.tech_infoBox .tab-content ul { padding-left: 20px; list-style: square; width: 37%; float: left; overflow: hidden }
+.latestproBox, .latestproBox .col-md-4 img, .tech_infoBox .banner { width: 100% }
+.latestproBox ol, .storeBox ol { overflow: hidden; list-style: none }
+.tech_infoBox .tab-content { overflow: hidden; padding: 10px }
+.tech_infoBox .nav-pills li { line-height: 50px; font-size: 20px; border-left: 1px solid #fefefe; font-family: aller_lightregular; background: #eee }
+.tech_infoBox .banner { margin-bottom: 20px; position: relative; background: #363948 }
+.tech_infoBox .nav-pills li:first-child { border: 0 }
+.tech_infoBox .nav-pills a { display: block; border-radius: 0; -webkit-border-radius: 0 }
+.tech_infoBox td a { display: block; font-size: 16px; color: #fff; text-align: center }
+.tech_infoBox h4 a, .tech_infoBox h4 a.collapsed .glyphicon-plus { display: block }
+.tech_infoBox h4 a.collapsed .glyphicon-minus { display: none }
+.tech_infoBox h4 a .glyphicon-minus { display: block }
+.tech_infoBox h4 a .glyphicon-plus { display: none }
+.tech_infoBox .img-thumbnail { margin: 0 20px 10px 0 }
+.tech_infoBox .tab-content .img-thumbnail { float: left }
+.tech_infoBox .tab-content li a { display: inline }
+.tech_infoBox .tab-content li { line-height: 30px; width: 100% }
+.tech_infoBox .list { border: 1px solid #eee; overflow: hidden }
+.tech_infoBox .text { position: absolute; left: 0; top: 0 }
+.tech_infoBox h2 { padding-bottom: 20px; color: #85c343; font-family: allerbold; font-weight: 700; border-bottom: 1px solid #fff; font-size: 40px }
+.tech_infoBox h3 { color: #fff; font-family: aller_lightregular; font-size: 22px }
+.databaseBox h5, .newstabBox h5 { font-family: Arial, Helvetica, sans-serif }
+.tech_infoBox .spacer { height: 20px }
+.tech_infoBox address { margin: 0 }
+.tech_infoBox .alert-info { margin-top: 20px }
+.latestproBox:hover { color: #3d3f42 }
+.latestproBox:hover .bor_slide { border: 1px solid #adb4bc }
+.latestproBox h3 { margin: 0; color: #139ad9; line-height: 40px }
+.latestproBox:hover h3 a { color: #139AD9 }
+.latestproBox:hover a .view_btn { color: #555658 }
+.latestproBox ol { margin: 0 }
+.latestproBox ul { margin: 0; padding: 0; overflow: hidden }
+.latestproBox .slides>li { display: none }
+.latestproBox .bor_slide { margin-right: 1px; height: 225px; border: 1px solid #d5dae1; overflow: hidden; position: relative; background: #fff }
+.latestproBox #pro_list { padding: 16px 0 0; overflow: hidden }
+.latestproBox .col-md-4 { padding: 10px 12px; border-right: 1px solid #d5dae1; background: 0 0 }
+.latestproBox .col-md-8 { padding: 10px }
+.latestproBox li h3 { padding-bottom: 10px; border-bottom: 1px solid #d5dae1; color: #434343; line-height: 28px; text-transform: none }
+.areaBox h5, .dark_shade header h3, .databaseBox h5, .newstabBox h5, .storeBox h3 { text-transform: uppercase }
+.latestproBox li p { padding: 6px 10px 0 0; line-height: 16px }
+.latestproBox .link { position: absolute; right: 3px; bottom: 2px; width: auto }
+.latestproBox .flex-direction-nav a { border: 0 }
+.latestproBox .link a { margin: 0; padding: 0 }
+.latestproBox .link img { margin: 0; display: inline-block }
+.latestproBox #slider .flex-direction-nav { display: none }
+.latestproBox #carousel { padding: 25px 18px 10px 34px; position: relative }
+.latestproBox #carousel ul { padding-top: 10px }
+.latestproBox #carousel img { width: 100% }
+.latestproBox #carousel figure { width: 90%; position: relative; padding: 5px; border: 1px solid #d5dae1 }
+.latestproBox .flex-viewport .title { padding: 10px 15px 0; margin-right: 20px; line-height: 14px; display: block; text-align: center }
+.latestproBox #carousel .flex-active-slide figure { padding: 0; border: 6px solid #139ad9 }
+.latestproBox .flex-direction-nav a { display: block; width: 12px; text-indent: -99999px; height: 20px; margin: -20px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; cursor: pointer; color: rgba(0,0,0,.8); text-shadow: 1px 1px 0 rgba(255,255,255,.3); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease }
+.latestproBox .flex-direction-nav .flex-prev { left: 0; background: url(../images/prev.png) left top no-repeat }
+.latestproBox .flex-direction-nav .flex-next { right: 0; background: url(../images/next.png) left top no-repeat }
+.latestproBox .sap_line { padding: 0; height: 100%; position: absolute; left: 0; top: 0; border-right: 1px solid #d5dae1 }
+.latestproBox .flex-active-slide .glyphicon-play { margin: 0; padding: 0; text-indent: -99999px; width: 15px; height: 8px; display: block; position: absolute; color: #139ad9; left: 47%; top: -13px; background: url(../images/arrow.png) left top no-repeat }
+.latestproBox .glyphicon-play { display: none }
+.areaTextBox { padding: 2%; position: absolute; left: 0; top: 0; width: 97%; margin: 0 15px; height: 100%; z-index: 99; border: 1px solid #c8ecfa; background: #e6f8ff }
+.areaTextBox p { font-size: 16px; line-height: 24px; color: #2a2c2d }
+.databaseBox { padding: 50px 15px 0; position: relative; border: 1px solid #dcdcdc; background: #fff }
+.databaseBox h5 { margin: 0; padding: 0 20px; position: absolute; left: 0; top: 0; line-height: 38px; display: inline-block; color: #fff; background: #ff9600 }
+.databaseBox .col-xs-12 { padding: 15px 10px; color: #818385; border: 1px solid #dbdde1 }
+.databaseBox li { padding-top: 8px; width: 100%; float: left }
+.databaseBox li li { padding-bottom: 0 }
+.databaseBox ul { padding: 10px 0 6px; margin: 0 }
+.databaseBox label { display: block; color: #818385; font-weight: 400; font-size: 14px; line-height: 30px; text-align: right; margin: 0 }
+.databaseBox input { padding: 5px; height: 30px; font-size: 14px; width: 99.7%; line-height: 32px; border: 1px solid #dcdcdc }
+.databaseBox input[type=submit] { padding: 0; margin: 0; font-weight: 700; color: #fff; width: 20%; border: 0; vertical-align: top; background: #7be013 }
+.databaseBox input[type=submit]:hover { background: #67c309 }
+.databaseBox .sec .DivSelectyze { width: 60% }
+.databaseBox .DivSelectyze { width: 99.8% }
+.databaseBox .text-center { margin: 0 }
+.DivSelectyze:active, .databaseBox input:focus { color: #000; box-shadow: 1px 1px 4px rgba(0,0,0,.2); background: #f8f8f8 }
+.newstabBox { border: 1px solid #dcdcdc; background: #fff }
+.newstabBox h5 { margin: 0; padding: 0 30px; line-height: 38px; display: inline-block; color: #fff; background: #ff9600 }
+.newstabBox ul { padding: 0 0 13px; float: left; margin: 0 }
+.newstabBox li { padding: 1%; position: relative; float: left; color: #818385; margin: 12px 0 0 5%; border: 1px solid #dbdde1; width: 90%; font-size: 14px; line-height: 18px }
+.newstabBox li a { overflow: hidden; color: #414243; display: block }
+.newstabBox li a span span { padding-top: 8px; color: #a0a5aa; display: block }
+.newstabBox .rgt_space { margin-right: 20px; padding: 0; border: 1px solid #eee }
+.newstabBox .rgt_space img { width: 100% }
+.newstabBox li span span { font-size: 11px }
+.newstabBox li.active { margin-left: 0; color: #fff; border: 1px solid #43d1ff; background: #43d1ff }
+.newstabBox li.active a, .newstabBox li.active a span span { color: #fff }
+.newstabBox .glyphicon-remove { right: 5%; top: 15px; color: #fff; display: block; font-size: 28px; position: absolute }
+.newstabBox li.active .arrow { position: absolute; left: -27px; top: 0; width: 0; height: 0; border-style: solid; border-width: 43px 26px 43px 0; border-color: transparent #32bae7 transparent transparent; line-height: 0 }
+.dark_shade { padding: 10px 0; border-bottom: 1px solid #eee; width: 100% }
+.dark_shade header h3 { padding-top: 5px; margin: 0; font-size: 22px; line-height: 24px; color: #139ad9; text-align: center }
+.keyBox { padding-top: 2px }
+.keyBox h1, .keyBox h2 { margin: 0; padding: 0 12px 0 0; font-size: 15px; line-height: 20px }
+.keyBox h2 { font-family: allerbold }
+.keyBox h2 span { font-family: aller_lightregular }
+.keyBox h1 { font-family: allerbold; color: #676a6e }
+.keyBox h1 span { font-family: aller_lightregular }
+.keyBox.key_line { border-bottom: 0 }
+.areaBox { border: 1px solid #dcdcdc; background: #fff }
+.areaBox h5 { margin: 0; padding: 0 30px; line-height: 38px; display: inline-block; font-family: Arial, Helvetica, sans-serif; color: #fff; background: #ff4343 }
+.areaBox ul { padding: 0 0 14px; margin: 0; height: 299px }
+.areaBox li { padding: 0 0 0 5%; position: relative; color: #818385; margin: 12px 0 0 5%; border: 1px solid #dbdde1; width: 90%; line-height: 62px; cursor: pointer }
+.areaBox li.active, .areaBox li:hover { margin-left: 0; color: #fff; border: 1px solid #43d1ff; background: #43d1ff }
+.areaBox .glyphicon-remove { right: 5%; top: 15px; color: #fff; display: block; font-size: 28px; position: absolute }
+.areaBox li:hover .glyphicon-remove { display: none }
+.areaBox li.active .glyphicon-remove { display: block }
+.areaBox .arrow { position: absolute; left: -24px; top: 0; width: 0; height: 0; border-style: solid; border-width: 31px 23px 31px 0; border-color: transparent #32bae7 transparent transparent; line-height: 0 }
+.storeBox { border: 1px solid #dcdcdc; background: #fff }
+.storeBox:hover { color: #3d3f42; border: 1px solid #adb4bc }
+.storeBox #___ytsubscribe_0, .storeBox .you_tube { width: 123px!important; position: static!important; float: right!important }
+.storeBox .socail { padding: 5px 0; overflow: hidden; position: absolute; right: 0; bottom: 0; width: 82px }
+.storeBox .share { overflow: hidden; float: left }
+.storeBox .share #tweet-btn, .storeBox .share a { margin-right: 3px; float: left; display: block }
+.storeBox h3 { margin-bottom: 0; text-align: center; font-size: 22px }
+.storeBox .big, .storeBox .title { font-family: aller_lightregular; font-size: 24px }
+.storeBox ol { margin: 0 }
+.storeBox ul { overflow: hidden; margin: 0; padding: 0 }
+.storeBox .share div { float: left }
+.storeBox li { transition: none; -webkit-transition: none; float: left }
+.storeBox .slides>li { display: none }
+.storeBox .slides li { position: relative; float: left }
+.storeBox .big { padding: 40px 15px 0 0; line-height: 28px; color: #4f5357 }
+.storeBox #slider_1 .list li, .storeBox #slider_2 .list li, .storeBox #slider_3 .list li { padding-left: 4%; line-height: 20px; width: 100%; background: url(../images/dot1.jpg) left 8px no-repeat }
+.storeBox embed { width: 100% }
+.storeBox #carousel_1 .slides li:first-child { display: none!important }
+.storeBox .list { padding: 10px 0 0 2%; height: 137px; margin: 0; overflow: hidden }
+.storeBox table p { margin: 0 }
+.storeBox .tech { padding-top: 10px; overflow: hidden }
+.storeBox .image { position: relative }
+.storeBox .image img { width: 99%; border: 1px solid #ccc }
+.storeBox .video { margin: auto; border: 0; background: #000 }
+.storeBox .video iframe { margin: 0 auto; border: 0; width: 100%; height: 174px }
+.storeBox .title { padding: 0 44px; width: 100%; position: absolute; left: 0; top: 30%; color: #fff; text-align: center }
+.storeBox .title a { color: #fff }
+.storeBox .glyphicon-play { position: absolute; cursor: pointer; left: 50%; margin: -12px 0 0 -10px; top: 50%; font-size: 16px; line-height: 24px; color: #76cc1e }
+.storeBox li.flex-active-slide .glyphicon-play { margin-top: -20px }
+.storeBox .thumb_nail img { width: 100%; height: 52px }
+.storeBox table { margin-bottom: 0 }
+.storeBox table td { padding: 0; border: 0!important }
+.signBox { padding: 0 10% 2px; text-align: center; float: none; margin: 0 }
+.signBox h3 { padding: 7px 0; margin: 0; font-size: 24px; line-height: 34px; color: #fff; text-shadow: 1px 1px 4px rgba(0,0,0,.2) }
+#footerCntr h4, .connectBox h3 { text-transform: uppercase; font-size: 22px }
+.signBox .form-control { padding: 10px; border: 0; width: 100%!important; text-align: center; border-radius: 5px; background: #fff }
+.signBox .navbar-form .form-group { width: 44% }
+.signBox .btn { width: 15%; text-transform: uppercase }
+.signBox .navbar-form { margin: 0 0 10px }
+#footerCntr { position: relative; height: 230px; margin-top: -230px; width: 100%; box-sizing: border-box; background: #333333; overflow: hidden }
+#footerCntr li { float: left; width: 100%; }
+#footerCntr h4 { padding-bottom: 10px; line-height: 28px; color: #fff; font-family: aller_lightregular; font-weight: 400 }
+#footerCntr .connect { padding: 0 }
+.connectBox { border: 1px solid #dcdcdc; background: #fff }
+.connectBox:hover { color: #3d3f42; border: 1px solid #adb4bc }
+.connectBox ul { margin: 0; padding: 2px 15px 0; overflow: hidden }
+.connectBox h3 { margin-bottom: 0; text-align: center }
+.connectBox li { padding: 13px 0; width: 100%; float: left; color: #737881; border-top: 1px solid #c0c5ce }
+.connectBox li div div { padding-bottom: 8px }
+.connectBox li:first-child { padding-top: 14px; border-top: 0 }
+.connectBox li:first-child h6 a { color: #5a7ac7 }
+.connectBox h6 { padding-bottom: 5px; margin: 0; font-weight: 700; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px }
+.connectBox .twitter-timeline { display: none }
+.connectBox h6 a { color: #A7D676 }
+.connectBox li h6 a { color: #5bbbed }
+.connectBox p { padding: 0!important; margin: 0!important; font-size: 11px }
+.photoBox { padding-right: 10px }
+.photoBox ul { overflow: hidden; padding: 0 10px; width: 100% }
+.photoBox li { padding: .5%!important; width: 10%; margin: 0 0 15px!important }
+.photoBox li a { display: block; width: 100%; border: 1px solid #224e05!important; float: none!important }
+.photoBox li img { width: 100%!important }
+.photoBox .logo { position: absolute; right: 0; top: 0 }
+.footerBox { padding: 10px 0; background: #333 }
+.footerBox h5 { color: #619b01; font-size: 13px; font-weight: 700 }
+.footerBox li a { padding-left: 7px; display: inline-block; color: #fff }
+.footerBox li a:hover { text-decoration: underline; }
+.footerBox li { line-height: 18px; font-size: 12px; background: url(../images/dot_foot.jpg) 0 6px no-repeat }
+.footerBox ul { overflow: hidden; }
+.footerBox input[type=text] { padding: 5px; height: 34px; border-top-left-radius: 5px; -webkit-border-top-left-radius: 5px; border-bottom-left-radius: 5px; -webkit-border-bottom-left-radius: 5px; border: 1px solid #fff; font-size: 12px }
+.footerBox input[type=submit] { height: 34px; color: #fff; font-size: 13px; border: 1px solid #619b01; border-radius: 0 5px 5px 0; -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; font-weight: 700; background: #619b01 }
+.footerBox input[type=submit]:hover { border: 1px solid #619b01; color: #619b01; background: #fff }
+.footerBox address { text-align: center; margin: 0; padding-bottom: 10px; font-size: 12px; line-height: 18px; color: #fff; }
+.footerBox address a { color: #fff; font-weight: bold; }
+.footerBox address span { display: block }
+.inntiativeBox { padding-right: 25px }
+.inntiativeBox ul { padding: 0; margin: 0; overflow: hidden }
+.inntiativeBox .flex-direction-nav a { width: 30px; height: 100%; top: 0; border: 0; margin: 0 }
+.inntiativeBox .flex-direction-nav .flex-prev { background: url(../images/prev2.png) center center no-repeat #000 }
+.inntiativeBox .flex-direction-nav .flex-next { background: url(../images/next2.png) center center no-repeat #000 }
+.inntiativeBox .flexslider5 { padding: 0 30px; position: relative }
+.inntiativeBox .flex-direction-nav a:hover { background-color: #fff }
+.inntiativeBox .col-md-12 { padding: 5px; background: #fff; margin: 0 }
+.inntiativeBox .col-md-12 img { margin: auto }
+@font-face { font-family: allerregular; src: url(../fonts/aller_rg-webfont.eot); src: url(../fonts/aller_rg-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/aller_rg-webfont.woff) format('woff'), url(../fonts/aller_rg-webfont.ttf) format('truetype'), url(../fonts/aller_rg-webfont.svg#allerregular) format('svg'); font-weight: 400; font-style: normal }
+@font-face { font-family: allerbold; src: url(../fonts/aller-webfont.eot); src: url(../fonts/aller-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/aller-webfont.woff) format('woff'), url(../fonts/aller-webfont.ttf) format('truetype'), url(../fonts/aller-webfont.svg#allerbold) format('svg'); font-weight: 400; font-style: normal }
+@font-face { font-family: allerbold_italic; src: url(../fonts/aller_bdit-webfont.eot); src: url(../fonts/aller_bdit-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/aller_bdit-webfont.woff) format('woff'), url(../fonts/aller_bdit-webfont.ttf) format('truetype'), url(../fonts/aller_bdit-webfont.svg#allerbold_italic) format('svg'); font-weight: 400; font-style: normal }
+@font-face { font-family: alleritalic; src: url(../fonts/aller_it-webfont.eot); src: url(../fonts/aller_it-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/aller_it-webfont.woff) format('woff'), url(../fonts/aller_it-webfont.ttf) format('truetype'), url(../fonts/aller_it-webfont.svg#alleritalic) format('svg'); font-weight: 400; font-style: normal }
+@font-face { font-family: aller_lightregular; src: url(../fonts/aller_lt-webfont.eot); src: url(../fonts/aller_lt-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/aller_lt-webfont.woff) format('woff'), url(../fonts/aller_lt-webfont.ttf) format('truetype'), url(../fonts/aller_lt-webfont.svg#aller_lightregular) format('svg'); font-weight: 400; font-style: normal }
+@font-face { font-family: aller_lightitalic; src: url(../fonts/aller_ltit-webfont.eot); src: url(../fonts/aller_ltit-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/aller_ltit-webfont.woff) format('woff'), url(../fonts/aller_ltit-webfont.ttf) format('truetype'), url(../fonts/aller_ltit-webfont.svg#aller_lightitalic) format('svg'); font-weight: 400; font-style: normal }
+.DivSelectyze { position: relative; text-align: left; width: 21%; height: 36px; display: inline-block; margin: 0; border: 1px solid #dbdde1; background: url(../images/drop_down.png) right center no-repeat #fff }
+.DivSelectyze .selectyzeValue { overflow: hidden; height: 30px; position: relative; z-index: 10; display: block }
+.DivSelectyze ul { margin: 0; padding: 0; list-style: none }
+.DivSelectyze .UlSelectize { position: absolute; z-index: 9999; display: none }
+.selectyzeValue { padding-left: 4%; line-height: 32px; font-size: 14px; color: #bfc1c3 }
+.UlSelectize { padding: 0; top: 36px; left: 0; width: 100%; border: 1px solid #d2d2d2; background-color: #fff }
+.DivSelectyze li a { display: block; line-height: 24px; background-color: transparent; color: #797979; padding-left: 10px; border: 1px solid #fff }
+.DivSelectyze li a:hover, .optgroupTitle { background-color: #858585; color: #fff }
+.event_data .bg-success .link a:hover, .event_data a:hover { text-decoration: underline }
+.optgroupTitle { display: block; margin-top: 15px; font-size: 20px; padding-left: 10px }
+.menu_slide { left: 0; top: 0; z-index: 99; height: 100% }
+.slide_btn { display: none!important; z-index: 9999999999; cursor: pointer; width: 47px; height: 27px; margin-top: 248px; text-indent: -99999px; background: url(../images/mob_nav.jpg) left top no-repeat }
+.home_btn .slide_btn { margin-top: 193px }
+.home_bg .slide_btn { margin-top: 189px }
+.event_data .upcoming-detail { padding: 10px; margin-bottom: 10px }
+.event_data .share_post div { padding: 10px 0; float: left }
+.event_data address { margin-bottom: 0 }
+.event_data .bg-success .link a { padding-left: 20px; line-height: 24px; color: #139AD9; display: block; background: url(../images/pdf1.png) left top no-repeat }
+.event_data .bg-success .link li { padding: 5px 10px; border-top: 2px solid #b5d1a9 }
+.event_data .bg-success .link, .event_data .bluebg .link { padding: 0 }
+.event_data .bg-success .link li:first-child { border-top: 0 }
+.event_data a { color: #139AD9; word-wrap: break-word }
+.event_data h1 { margin: 0 0 20px; font-size: 20px; line-height: 24px; color: #333 }
+.event_data h1 small { line-height: 18px; display: block; color: #18562e }
+.event_data { padding-top: 20px }
+.event_data ul { list-style: square }
+.event_data li { padding-bottom: 10px }
+.event_data h3 { margin: 0 }
+.event_data object { width: 100% }
+.event_data embed { width: 100%!important; height: 300px!important }
+.event_data .img-thumbnail { margin: 0 auto 20px; display: block }
+.event_data .bg-warning { padding: 1%; margin: 10px 0; width: 100% }
+.event_data .facebook { width: 85px }
+.event_data .google1 { width: 65px }
+.event_data .tweeter_post { width: 85px }
+.hasTip { font-size: 15px; line-height: 30px }
+fieldset.jnewscss input, fieldset.jnewscss select { height: 30px; font-size: 14px!important; width: 100%!important }
+fieldset.jnewscss td { padding-bottom: 10px; font-family: aller_lightregular; width: 55%!important }
+fieldset.jnewscss td.key { width: 45%!important; border: 0!important }
+fieldset.jnewscss legend { font-size: 20px!important; font-family: aller_lightregular }
+.toolbar { position: absolute; left: 53%; bottom: 15px }
+.toolbar .button-text { display: inline-block; padding: 6px 12px; margin-bottom: 0; font-size: 14px; font-weight: 400; line-height: 1.42857143; text-align: center; white-space: nowrap; vertical-align: middle; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; background-image: none; border: 1px solid #357ebd; border-radius: 4px; color: #fff; background-color: #428bca }
+#joobitoolbar-box { margin-top: 40px }
+.jnewscss { padding-bottom: 50px!important }
+.jpng-16-menu-save { display: none }
+div.toolbar table.toolbar a:hover { border: 0!important }
+.event_data .share_post { width: 100%; float: left }
+div.toolbar table.toolbar a { padding: 0!important; border: 0!important }
+.socialtech { list-style: none; margin: 0 auto; text-align: left; width: 98% }
+
+@media only screen and (min-width:960px) {
+.footerBox .col-sm-2 { padding: 0 5px; width: 13% }
+.footerBox .col-sm-3 { padding: 0 5px; width: 34% }
+.footerBox input[type=text] { width: 65% }
+.footerBox input[type=submit] { font-size: 13px; width: 34% }
+}
+
+
+@media only screen and (min-width:960px) and (max-width:1209px) {
+#footerCntr { height: 250px; margin-top: -250px; }
+#mainCntr { padding-bottom: 250px; }
+.storeBox .mar_lft, .titleBox p { width: 60% }
+#bannerCntr iframe { height: 323px!important }
+.form-control { height: 29px }
+#headerCntr .logo a span { font-size: 21px }
+#headerCntr .logo small { font-size: 14px }
+.opinionBox .nav-tabs li a { padding: 0 5px }
+.eventBox span { font-size: 11px }
+.opinionBox .tab-content li { padding-bottom: 8px }
+.storeBox .title { padding: 0 20px; top: 25%; font-size: 18px; line-height: 20px }
+.storeBox .big { font-size: 16px; line-height: 20px }
+.storeBox .vrt_space { height: 180px; min-height: 0 }
+.storeBox #carousel_1 .slides li, .storeBox #carousel_2 .slides li, .storeBox #carousel_3 .slides li { width: 93px!important }
+#contentCntr .sign_user li { width: 10% }
+.bannerBox .text { padding-bottom: 0; height: 204px }
+.bannerBox .text p { padding-right: 10px }
+.infodataBox p { padding-left: 1%; padding-right: 1% }
+.areaBox li { line-height: 41px }
+.areaBox ul { height: 222px }
+.areaBox li.active { margin-left: 0; color: #fff; border: 1px solid #43d1ff; background: #43d1ff }
+.areaBox .arrow, .newstabBox li.active .arrow { border-style: solid; border-color: transparent #32bae7 transparent transparent }
+.areaBox .arrow { left: -16px; width: 0; height: 0; border-width: 21.5px 15px 21.5px 0; line-height: 0 }
+.areaBox .glyphicon-remove { right: 4%; top: 14px; font-size: 18px }
+.workBox p { padding: 11px }
+.researchBox #owl-demo1 .item p { padding: 0; font-size: 11px }
+.researchBox p { font-size: 14px; line-height: 18px }
+.researchBox p span { font-size: 12px; line-height: 16px }
+.researchBox li { padding-bottom: 14px }
+.menufeBox h3 { font-size: 16px }
+.menufeBox li a { padding: 0 7px }
+.pro_listBox h3 { padding-bottom: 0 }
+.tech_infoBox .tab-content ul { width: 310px }
+.pro_listBox ul { padding: 0 }
+.pro_listBox p { font-size: 12px }
+.pro_listBox h4 { font-size: 14px }
+.DivSelectyze, .searchBox .drop_first { width: 18% }
+.searchBox select { height: 38px }
+.databaseBox h5 { line-height: 30px }
+.databaseBox { padding: 38px 5px 0 }
+.databaseBox ul { padding-top: 7px }
+.databaseBox li { padding-top: 5px }
+.databaseBox label { font-size: 11px; line-height: 26px }
+.selectyzeValue { line-height: 26px }
+.DivSelectyze { height: 27px }
+.DivSelectyze .selectyzeValue { height: 21px; font-size: 12px }
+.databaseBox input { height: 26px; line-height: 22px }
+.databaseBox p { font-size: 12px; line-height: 16px; margin: 0 }
+.certificatBox .over, .certificatBox .over1 { left: 40.4% }
+.databaseBox .col-xs-12 { padding: 5px }
+.newstabBox li { font-size: 12px; margin-top: 6px; line-height: 14px }
+.newstabBox li a span span { padding-top: 2px }
+.newstabBox li.active .arrow { left: -21px; width: 0; height: 0; border-width: 34px 20px 34px 0; line-height: 0 }
+
+.opedBox .block .row { padding: 5px }
+.opedBox .block { padding: 5px 5px 30px; height: 345px }
+.signBox h3 { font-size: 24px; line-height: 28px }
+.storeBox .list { padding-left: 2%; font-size: 12px }
+.eventBox .link p a { padding: 4px 10px }
+.photoBox .logo { position: absolute; right: 60px; top: 0 }
+.footerBox address { padding: 0 }
+.storieBox .social { top: 20px }
+.workBox p { font-size: 15px }
+.workBox .panel-body { padding: 10px }
+.websiteBox h3 { font-size: 14px }
+.annualBox li span { font-size: 18px; top: 35%; line-height: 22px }
+.annualBox { height: 422px }
+.you_tubeBox h3 { font-size: 22px; line-height: 30px }
+.you_tubeBox .link { padding-top: 15px }
+.eventabanBox p { line-height: 18px }
+.flickrBox .big_img { height: 398px }
+.flickrBox .big_img1 { height: 312px }
+.you_tubeBox iframe { height: 390px }
+.signBox .form-control { padding: 5px }
+.eventabanBox .text { height: 279px; overflow-y: auto }
+.bannerBox .carousel-indicators { bottom: 45px }
+.bannerBox .bot_list { bottom: -32px }
+.connectBox li { height: 189px; overflow: hidden }
+.connectBox li div div { padding-bottom: 5px }
+.awarddataBox h5 { padding: 0 }
+.eventabanBox h3 { font-size: 16px; line-height: 20px }
+.eventabanBox p { font-size: 12px }
+.awarddataBox h5, .menuBox li li, .newsBox p { font-size: 13px }
+.menuBox .item-124 ul { width: 647%; left: -221px }
+.sectorBox li { min-height: 60px }
+.bannerBox { height: 333px }
+.bannerBox.fe_banner { height: auto }
+.menuBox li li { padding-bottom: 0 }
+.bannerBox .live-btn { left: 152px; bottom: 60px; height:55px; }
+.bannerBox .know-more { left: 51px; bottom: 60px; height: 55px; }
+.bannerBox .live-btn1 { left: 433px; bottom: 30px; height: 50px; }
+.bannerBox .know-more1 { left: 342px; bottom: 30px; height: 50px; }
+}
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+.bannerBox .live-btn { left: 126px; bottom: 65px; height:36px; }
+.bannerBox .know-more { left: 60px; bottom: 65px; height: 36px; }
+.bannerBox .live-btn1 { left: 356px; bottom: 44px; height: 36px; }
+.bannerBox .know-more1 { left: 290px; bottom: 44px; height: 36px; }
+
+#footerCntr { height: auto; margin: 0; }
+#mainCntr { padding-bottom: 0; }
+.footerBox .col-sm-2 { min-height: 80px; width: 25%; }
+.footerBox .col-sm-3 { width: 50%; }
+.footerBox { height: auto; }
+.footerBox input[type=text] { width: 65%; height: 28px }
+.footerBox input[type=submit] { font-size: 10px; width: 35%; height: 28px }
+.bannerBox .list li a { padding: 0 10px; font-size: 13px }
+.flickrBox .logo { top: 15px }
+#headerCntr .logo small { font-size: 12px; line-height: 14px }
+.socailBox .fieldcontainer { margin-right: 5px }
+#headerCntr .col-sm-6 { padding: 0!important }
+.tech_infoBox h2 { font-size: 30px }
+.tech_infoBox h3 { font-size: 16px }
+.eventBox.event li { min-height: 102px }
+#headerCntr .logo img { margin-right: 0; padding-right: 5px; width: 18% }
+#headerCntr .logo a span { margin-top: 5px; font-size: 18px; line-height: 22px }
+.updateBox h4, .updateBox p { line-height: 16px }
+#headerCntr .logo.homelogo a span { margin-top: 14px }
+.socailBox fieldset { padding-right: 0 }
+.socailBox li { padding: 0 2px!important }
+.socailBox .link { margin-right: 4px }
+.socailBox .mail { margin-right: 5px; font-size: 10px }
+.socailBox .searchfieldjs { width: 68px; padding-left: 22px }
+.updateBox .star { width: 100%; float: none; display: block; margin: 2px 0; clear: both }
+.newstabBox li .col-sm-3, .newstabBox li.active .arrow { display: none }
+.opinionBox .nav-tabs li a { font-size: 11px!important; padding-left: 3px; padding-right: 3px }
+.updateBox h4 { font-size: 13px }
+.opinionBox .tab-content li { padding: 5px }
+.opinionBox .tab-content p { padding-bottom: 3px; font-size: 12px; line-height: 16px }
+.opinionBox .tab-content .text { padding-top: 0 }
+.updateBox .block { padding-bottom: 40px; height: 293px }
+.latestproBox .bor_slide { height: 194px }
+.opinionBox .tab-content { height: 254px }
+.updateBox .link { text-align: center }
+.flickrBox .img-responsive { width: 100%; height: 135px }
+.updateBox .link a { float: none; margin: 0 }
+.storeBox h3 { font-size: 20px }
+.storeBox .slides li p, .updateBox p { font-size: 12px }
+.storeBox .mar_lft { width: 50% }
+.storieBox .title { font-size: 10px; line-height: 12px }
+.storeBox .big { padding: 20px 0 0; font-size: 14px; line-height: 18px }
+.storeBox .vrt_space { height: 112px; min-height: 0 }
+.storeBox .list li { font-size: 12px; line-height: 16px!important }
+.storeBox .title { padding: 0 20px; font-size: 14px; line-height: 18px }
+.latestproBox li h3 { font-size: 15px; line-height: 20px }
+.latestproBox li p { font-size: 12px; line-height: 16px }
+.latestproBox .col-md-8 { padding-bottom: 25px }
+.eventBox li .col-lg-4 { padding-right: 0 }
+.eventBox .lft_pad { padding-left: 10px }
+.eventBox span { margin: 0; font-size: 11px }
+.eventBox p { font-size: 12px }
+.eventBox .link p { line-height: 16px }
+.eventBox .link p a { padding: 0 8px }
+#contentCntr .sign_user li { width: 10% }
+.annualBox { height: auto }
+.annualBox .view_btn { position: static }
+.inntiativeBox .flex-direction-nav a { width: 15px; height: 100%; top: 0; border: 0; margin: 0 }
+.inntiativeBox .flexslider5 { padding: 0 15px }
+.bannerBox .text { padding: 10px 20px; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; height: 170px }
+.bannerBox .text h2 { font-size: 20px; line-height: 22px }
+.bannerBox .fe_text p, .bannerBox .text p { padding-right: 30px; font-size: 12px; line-height: 15px }
+.storieBox .social { top: 18px; z-index: 11 }
+.latestproBox #pro_list { padding-left: 0 }
+.storeBox .list { padding: 0 0 10px; height: 168px }
+#carousel_1, #carousel_2, #carousel_3 { padding: 0 20px!important }
+.storeBox .flex-direction-nav a { width: 20px!important }
+#footerCntr h4 { font-size: 20px }
+.tech_infoBox .tab-content ul { float: none; width: auto }
+.photoBox { padding-right: 0 }
+.latestproBox .flex-direction-nav a { height: 25px }
+.latestproBox .flex-direction-nav .flex-next { right: 4px; width: 15px; height: 25px; background: url(../images/next.jpg) center top no-repeat }
+.latestproBox .flex-direction-nav .flex-prev { left: -4px; width: 15px; height: 25px; background: url(../images/prev.jpg) center top no-repeat }
+.signBox .btn { width: 20% }
+.latestproBox #carousel { padding-left: 0; padding-right: 0 }
+
+.awarddataBox h5 { padding: 0; font-size: 13px; line-height: 18px }
+.blogBox .panel-heading h3 { margin-bottom: 0; font-size: 18px }
+.awarddataBox p { font-size: 12px }
+.mapBox li { width: 25% }
+.menufeBox h3 { font-size: 15px; margin: 0; line-height: 48px }
+.menufeBox li { font-size: 12px }
+.areaTextBox p { padding-top: 6%; font-size: 14px; line-height: 18px }
+.areaBox h5 { padding: 0 10px; line-height: 30px }
+.areaBox li { padding: 6px; line-height: 18px; font-size: 11px; text-overflow: ellipsis; margin-top: 5px }
+.areaBox .glyphicon-remove { right: -5px; top: -5px; color: #000; font-size: 14px }
+.areaBox .arrow { left: -16px; width: 0; height: 0; border-style: solid; border-width: 15px 15px 15px 0; border-color: transparent #32bae7 transparent transparent; line-height: 0 }
+.workBox p { font-size: 14px; line-height: 20px }
+.workBox .panel { height: 270px }
+.workBox .panel-footer { padding-top: 10px }
+.pro_listBox ul, .researchBox ul { padding: 0 }
+.pro_listBox h3 { padding: 0; font-size: 20px }
+.pro_listBox li { min-height: 175px }
+.pro_listBox h4 { font-size: 14px; line-height: 18px }
+.researchBox h3 { font-size: 16px }
+.researchBox p { font-size: 13px; line-height: 16px }
+.researchBox .row { margin: 0 }
+.researchBox p a, .researchBox p span { font-size: 12px; line-height: 14px }
+.researchBox .row .col-md-9 { padding-right: 0 }
+.menufeBox li a { padding: 0 9px }
+.menufeBox li { padding: 0; line-height: 48px }
+.socailBox li a { width: 26px; height: 26px; background-size: cover!important; -webkit-background-size: cover!important }
+.socailBox li a:hover { background-position: 0 -26px; background-size: cover!important; -webkit-background-size: cover!important }
+.socailBox .teri { margin-right: 5px; padding-right: 8px }
+.DivSelectyze, .searchBox input { width: 18% }
+.databaseBox { margin-top: 20px }
+.keywordBox li a { min-width: 22px }
+.sectorBox li { width: 48% }
+.keywordBox li a:hover span, .keywordBox li.active span { width: 31px; background-size: contain; -webkit-background-size: contain }
+.keywordBox li a:hover .top, .keywordBox li.active a .top { top: -6px }
+.keywordBox li a:hover .bottom, .keywordBox li.active a .bottom { bottom: -6px; background-size: contain; -webkit-background-size: contain }
+.tab_col { width: 100%!important; margin-bottom: 20px; padding: 0 }
+.newstabBox li { margin: 15px 14px; width: 29% }
+.newstabBox ul { margin-left: 14px }
+.newstabBox li.active { margin: 5px 14px }
+.awardBox .panel-body li { width: 31% }
+.opedBox .block .row { padding: 5px }
+.opedBox .block { padding: 5px 5px 30px; height: 420px }
+.opedBox h4 { margin-bottom: 0; height: 70px }
+.opedBox .link span { font-size: 11px }
+.newsBox p, .opedBox p, .pressBox p { font-size: 12px }
+.opedBox .tab_col { margin-bottom: 0; padding: 0 }
+.opedBox p { margin-bottom: 0; line-height: 16px }
+.opedBox .link { padding: 0 5px }
+.opedBox .link span { padding: 0 }
+.newsBox p { min-height: 154px }
+.opedBox .tab_col img { margin: auto; float: none; display: block; max-width: 100%; width: auto }
+.opedBox .col-md-8 p { padding: 0 5px; text-align: center }
+.newsBox h5 { min-height: 70px; padding: 5px }
+.bannerBox h4 { font-size: 20px }
+.signBox { margin-top: 25px }
+.signBox h3 { font-size: 22px; line-height: 26px }
+.infoBox .vision span { line-height: 30px }
+.photoBox .logo { position: absolute; right: 20px; top: 10px }
+.photoBox .logo img { width: 80% }
+.storeBox .you_tube { width: 100%!important; float: none!important }
+.storeBox #___ytsubscribe_0 { margin: auto }
+.storeBox .share { padding-bottom: 5px; float: none; width: 100% }
+.eventBox.fe_event li { min-height: 72px }
+.certificatBox span { padding-bottom: 8px; font-size: 18px }
+.certificatBox .col-md-11, .certificatBox .col-sm-11 { margin-top: 10px }
+.areaBox ul { height: 176px }
+.areaBox li { height: auto }
+.annualBox li span { font-size: 14px; top: 35%; line-height: 22px }
+.annualBox li { margin: 0 .5% 0 0; padding: 0; float: left; width: 32.5% }
+.you_tubeBox h3 { margin-bottom: 10px; font-size: 16px; line-height: 20px }
+.you_tubeBox p { font-size: 12px; line-height: 16px }
+.eventabanBox h3, .you_tubeBox .link span { font-size: 14px; line-height: 18px }
+.you_tubeBox .link { padding-top: 10px }
+.flickrBox .sap_gap { height: 8px }
+.photoBox li { width: 16.6% }
+.eventabanBox p { font-size: 12px; line-height: 16px }
+.flickrBox .big_img { height: 303px }
+.flickrBox .big_img1 { height: 238px }
+.you_tubeBox iframe { height: 340px }
+.menuBox li { padding: 0 5px; font-size: 13px }
+.menuBox li.item-124 li a { min-height: 45px }
+.menuBox li a { padding: 0 4px }
+.menuBox .item-124 ul { width: 535%; left: -150px }
+.paginationBox .pagination a, .paginationBox .pagination>span { padding: 4px; font-size: 12px }
+.dark_shade header h3, .keyBox { padding-top: 4px }
+.eventabanBox li { padding-bottom: 3px }
+.eventabanBox .text { height: 218px; overflow-y: auto }
+.bannerBox .carousel-indicators { bottom: 40px; left: 5px }
+.bannerBox .list li { line-height: 40px }
+.bannerBox .bot_list { bottom: -20px }
+.connectBox li { height: 170px; overflow: hidden }
+.connectBox li div div { padding-bottom: 8px }
+.connectBox li div .lft_pad { padding-right: 0 }
+.socailBox { padding: 0 }
+.awarddataBox.people img { width: 80px; height: 80px }
+
+.eventabanBox li { width: 98%; margin-top: 3px }
+.eventabanBox ul { padding: 5px }
+.eventabanBox .over { border: 3px solid #6fce0e }
+.bannerBox { height: 249px }
+.bannerBox.fe_banner { height: auto }
+.websiteBox .caption h4 { font-size: 15px }
+.footerBox address { }
+.websiteBox h5 { min-height: 50px; margin-bottom: 0; font-size: 13px; line-height: 16px }
+.thumbnail .caption { padding: 0 }
+}
+
+@media only screen and (max-width:767px) {
+.bannerBox .live-btn, 
+.bannerBox .live-btn1 { position: static; width: 80px;  }
+.bannerBox .know-more1, .bannerBox .know-more { position: static; width: 68px; margin-right: -4px;  }
+
+.bannerBox .list li { width: 33.3%; }
+.areaBox li, .areaBox ul { height: auto }
+#drop, #drop .field, .connectBox, .mob_navBox, .socailBox ul { overflow: hidden }
+#headerCntr .logo, .awarddataBox h3, .eventBox p, .jobBox h3, .menufeBox h3, .storeBox .big, .storeBox .title, .updateBox { text-align: center }
+.storeBox .slides li:first-child .list p { display: none }
+.bannerBox .mob_SHOW { display: block }
+.bannerBox .big, .bannerBox .btn_regis, .bannerBox .btn_regis1, .bannerBox .btn_regis2, .bannerBox .btn_regis3, .bannerBox .btn_regis4, .bannerBox .follow, .bannerBox .read1, .bannerBox .read2, .bannerBox .reigster { display: none }
+.bannerBox .big { display: none!important }
+.bannerBox .mob_none, .eventabanBox .over, .tech_infoBox h3 { display: none }
+.tech_infoBox .tab-content .img-thumbnail { float: none; margin: 0 auto }
+.tech_infoBox h2 { font-size: 16px }
+.tech_infoBox .tab-content ul { float: none; width: auto }
+.eventabanBox .no_pad { padding: 0 }
+.eventabanBox .pull-right { float: none!important }
+.eventabanBox .text { padding: 15px 15px 20px }
+.newsBox p { min-height: 0 }
+.newsBox .block { margin-bottom: 20px }
+.annualBox li span { font-size: 18px; top: 30%; line-height: 22px }
+.blogBox img { width: auto!important }
+.certificatBox .col-md-11, .certificatBox .col-sm-11 { margin-top: 10px }
+.blogBox .left_inner { padding: 0 2%; width: 96%; margin: auto; float: none }
+.blogBox .en_right1, .blogBox .en_right2 { padding: 20px 2%; width: 96%; margin: 0 auto; border: 1px solid #E3E3E3; overflow: hidden }
+.blogBox .en_right1 { background: #F5F5F5; box-shadow: 0 1px 1px rgba(0,0,0,.05) inset }
+#headerCntr .logo img { float: none }
+#headerCntr .logo.home_logo a span { float: right }
+.home_btn #headerCntr .logo.home_logo a span { margin-top: 15px; min-height: 53px }
+#headerCntr .logo { padding: 10px 0 15px; margin: 0 auto 10px; width: 80%; float: none }
+.socailBox ul { padding-bottom: 20px; width: 100%; float: none }
+.socailBox li { float: none; display: inline }
+.photoBox .logo, .pull-right.pull_none, .socailBox .pull-right.pull_none, .storeBox .mar_lft, .storeBox .slides li img { float: none!important }
+.socailBox li a { display: inline-block }
+.titleBox p { width: 90%; font-size: 14px }
+.awardBox .panel-body li, .eventBox li { width: 98% }
+.vrt_space { padding-bottom: 10px; height: auto!important }
+.photoBox .logo { position: absolute; right: 5%; top: 0 }
+.connectBox .row { margin: 0 }
+.connectBox { padding: 10px 0 }
+.inntiativeBox li img { width: 100% }
+.inntiativeBox .col-md-12 img { width: auto; margin: auto; display: block }
+.researchBox .col-md-4, .researchBox .col-sm-4, .researchBox li { height: auto }
+.storeBox .title { position: static; color: #4F5357; padding: 10px 0; display: block }
+.photoBox, .socailBox { padding: 0 }
+.updateBox .col-md-4 { margin: 10px 0 }
+.connectBox li { width: 100% }
+.socailBox fieldset { padding-right: 0 }
+.socailBox .mail { margin-right: 5px }
+.socailBox .link { margin-top: 10px }
+.bannerBox { margin-bottom: 20px }
+.opinionBox { margin-top: 20px }
+.sb-toggle-left { width: 47px; height: 27px; margin: 10px 0; text-indent: -99999px; display: block; background: url(../images/mob_nav.jpg) left top no-repeat }
+.mob_navBox, .mob_navBox ul { padding: 0; margin: 0 }
+.sb-toggle-left.fe_mob { z-index: 1111; position: absolute; left: 0; top: 0 }
+.menuBox ul { display: none }
+.mob_navBox { width: 100% }
+.mob_navBox li { padding-bottom: 1px; width: 100%; line-height: 30px }
+.mob_navBox li a { padding: 2% 10%; color: #fff; display: block; background: #186432 }
+#drop, .mob_navBox .maxidrop-bottom, .mob_navBox .maxidrop-top { display: none }
+.mob_navBox li a:hover { color: #fff; text-decoration: none; background: #26532d }
+.mob_navBox .floatck { width: 100%!important; position: static!important }
+.mob_navBox .floatck a { padding: 1% 0 1% 15%!important }
+.mob_navBox .floatck li a { color: #186432!important; background: #fff!important }
+.mob_navBox .floatck li a:hover { color: #fff!important; background: #26532d!important }
+.mob_navBox .floatck li { line-height: 28px!important }
+.mob_navBox div.maximenuckh div.maximenuck2 { float: none!important; width: 100%!important }
+.socailBox .air_up { position: absolute!important; right: 20px; top: 5px }
+.socailBox { position: relative }
+#drop { width: 143%; padding-top: 40px; position: absolute; right: -15px; top: 50px; border: 0 }
+#drop .field { padding: 5px 5%; display: block; height: 40px; margin-top: -40px; width: 100%; color: #fff; font-size: 14px; border: 0; box-shadow: inset 0 1px 5px 0 rgba(0,0,0,.2); background: #228043 }
+.mb_none { display: none }
+.socailBox .search { margin-left: 10px; width: 17px; height: 24px; text-indent: -99999px; position: absolute; right: 0; top: 10px; cursor: pointer; display: block; background: url(../images/search.png) left top no-repeat }
+.infodataBox .link, .signBox { position: static }
+.latestproBox .bor_slide, .storeBox .list, .updateBox .block, .vrt_space { height: auto }
+.opinionBox .nav-tabs li a { font-size: 12px!important; padding-left: 8px; padding-right: 8px }
+.opinionBox .tab-content .col-md-3 { padding: 0 0 0 10px }
+.opinionBox .tab-content li { width: 100% }
+.storeBox .big { font-size: 20px; line-height: 24px }
+.storeBox .title { top: 40px; line-height: 24px; font-size: 18px }
+.storeBox .title a { color: #4F5357 }
+.latestproBox li h3 { font-size: 18px; line-height: 22px; border: 0 }
+.latestproBox #carousel { display: none; padding-left: 55px; padding-right: 30px }
+.latestproBox { padding-bottom: 15px }
+h3 { font-size: 20px }
+.latestproBox li p { font-size: 12px; line-height: 18px }
+.eventBox p { padding: 10px 0; margin: 0 }
+.back_bg .top_pad, .back_spacer, .back_spacer .top_pad { padding-top: 0 }
+.eventBox .lft_pad { padding: 15px }
+.storeBox .slides li img { display: block; margin: auto; border: 0 }
+.storeBox .image img { width: 60% }
+.storeBox .slides li .socail img { display: inline-block; margin: 0 }
+.latestproBox .col-md-4 img { margin: auto; width: auto; display: block }
+.storeBox .mar_lft { margin: auto }
+.storeBox .big { padding-top: 10px; min-height: 58px }
+#carousel_1, #carousel_2, #carousel_3 { display: none }
+#slider_1 .flex-direction-nav, #slider_2 .flex-direction-nav, #slider_3 .flex-direction-nav, .flexslider5 .flex-control-paging { display: block!important }
+.latestproBox .sap_line, .storeBox .sap_line p { display: none }
+.flex-direction-nav a { border: 0; top: 50%; width: 30px }
+.flex-direction-nav .flex-prev { background: url(../images/ban_prev.png) left top no-repeat; background-size: contain!important; -webkit-background-size: contain!important }
+.flex-direction-nav .flex-next { background: url(../images/ban_next.png) left top no-repeat; background-size: contain!important; -webkit-background-size: contain!important }
+.storeBox p { margin: 0 }
+.storeBox .sap_line { padding-top: 0; background: 0 0 }
+.signBox { margin: 0 auto }
+.signBox h3 { font-size: 14px; line-height: 18px }
+.opinionBox .tab-content { overflow: auto; height: auto }
+.signBox .navbar-form .form-group { width: auto }
+.signBox .btn { width: 40% }
+#footerCntr .container { padding: 0 15px; }
+#carousel_1, #carousel_2, #carousel_3 { padding: 0 20px!important }
+.storeBox .flex-direction-nav a { width: 20px!important }
+.websiteBox .flex-direction-nav li a.flex-prev { margin-left: 60px }
+.websiteBox .flex-direction-nav li a.flex-next { right: 30px }
+.storeBox .list { padding-bottom: 10px }
+.latestproBox #pro_list { padding-left: 0 }
+.latestproBox .col-md-4 { border: 0 }
+.signBox { width: 100%; padding: 0 4% 2px }
+.updateBox figure img { max-width: 100%; width: auto; margin: auto }
+.infodataBox p { padding: 0; font-size: 13px }
+.awardBox.map strong { display: block }
+.footerBox address { }
+#map_canvas { height: 300px!important }
+.hexagon2 { width: auto; height: 100px }
+.hexagon-in2 { background-size: cover; -webkit-background-size: cover }
+.sub_linkBox .col-xs-6 { min-height: 200px }
+.awardBox p { padding: 0 10px; font-size: 14px; line-height: 22px }
+.awardBox h1 { font-size: 26px }
+.awarddataBox .nav li { padding: 0 5px; float: left; width: 100%; line-height: 30px; background: #ade3fa; margin: 0 0 2px }
+.awarddataBox .nav li.active a, .awarddataBox .nav li:hover a { color: #000!important; display: block; border: 0 }
+.areaBox .arrow, .bannerBox .fe_text, .menufeBox.event #nav2 { display: none }
+.awarddataBox h3 { font-size: 20px }
+
+.awarddataBox ul { margin-bottom: 15px }
+.mapBox li { width: 50% }
+.areaBox h5 { padding: 0 10px; line-height: 30px }
+.areaBox li { padding: 6px; line-height: 18px; font-size: 12px; text-overflow: ellipsis; margin-top: 5px }
+.workBox p { font-size: 15px }
+.workBox a { font-size: 12px }
+.pro_listBox ul, .researchBox ul { padding: 0 }
+.pro_listBox h3 { padding-bottom: 0 }
+.areaBox .glyphicon-remove { top: 10px; font-size: 10px }
+.researchBox .row { margin: 0 }
+.researchBox .row img { margin: 0 auto }
+.researchBox .line { border: 0 }
+.areaTextBox { width: 96%; margin: 0 0 0 15px }
+.menufeBox h3 { padding: 0 30px; margin-bottom: 16px; font-size: 16px }
+.pro_listBox h4, .researchBox p { font-size: 14px; line-height: 18px }
+.researchBox p { padding-bottom: 5px }
+.searchBox .drop_first, .searchBox .drop_sec, .searchBox input { width: 96% }
+.searchBox label { display: block }
+.searchBox input[type=submit] { margin-top: 10px; width: 50% }
+.projectBox td td.col-md-3, .projectBox td td.col-md-9 { width: 100%!important; float: left; padding: 0 }
+.projectBox td { height: auto }
+.projectBox td, .projectBox th { font-size: 12px }
+.pagination a, .pagination>span { padding: 3px 2% }
+.paginationBox .pagination { padding-left: 20px; width: 100%; float: none!important; font-size: 12px }
+.projectBox.search td, .projectBox.search th { text-align: left; font-size: 12px }
+.databaseBox label, .eventBox address, .eventBox address span { text-align: center }
+.certificatBox .over, .certificatBox .over1 { display: none }
+.certificatBox span { padding-bottom: 20px }
+.certificatBox p { padding: 0 }
+.bannerBox .link { top: 0; padding: 5px; display: block; line-height: 20px; bottom: auto; right: 0; font-size: 12px; color: #fff; background: #000 }
+.newsdataBox .read, .newstabBox li.active .arrow { display: none }
+.newsdataBox .text p { height: 10px }
+.eventabanBox .text, .flickrBox .big_img, .flickrBox .big_img1, .newstabBox li, .opedBox .block { height: auto }
+.newstabBox li { margin: 0; width: 100%; font-size: 12px }
+.newstabBox li a, .newstabBox li a span span { line-height: 16px }
+.newstabBox li.active a, .newstabBox li.active a span span { line-height: 14px }
+.newstabBox li a { text-decoration: none }
+.newstabBox li.active { margin: 0 }
+.pressBox .block { margin-bottom: 20px }
+.pressBox .block img { margin: auto }
+.opedBox .block { margin-bottom: 20px }
+.opedBox .col-md-4 img { width: auto; margin: auto; display: block }
+#contentCntr .sign_user img, .eventabanBox p, .newstabBox li .col-sm-3 { display: none }
+.newstabBox ul { float: none; margin: 20px 0 0 }
+.pull-none.pull-right, .textBox img.pull-left { float: none!important }
+.storeBox .list { padding-left: 5% }
+.sign { position: relative }
+.bor_left.lft_pad { padding-left: 15px }
+#sign_bg { padding: 20px 0 }
+.infoBox .vision span { line-height: 28px }
+.connectBox li { margin: 0!important }
+.titleBox h3 { font-size: 17px; padding-bottom: 10px }
+
+.titlebarBox p { font-size: 16px; width: 98% }
+.eventabanBox li { margin: 0 1%; width: 23%; float: left }
+.eventabanBox ul { padding: 5px }
+.eventabanBox li .over { border: 1px solid #6fce0e }
+.you_tubeBox h3 { margin: 10px 0 }
+.you_tubeBox .you_tube { position: static; margin-top: 20px }
+.annualBox img { margin: 0 auto }
+.flickrBox img { margin: auto }
+.flickrBox div { padding: 10px }
+.projectBox .line_none .col-sm-7, .you_tubeBox .link { text-align: center; padding: 0 }
+.flickrBox .logo { display: block; position: absolute; right: 0; top: 10px; text-align: right }
+.eventabanBox li.active .arrow, .flickrBox .logo_mob { display: none }
+.flickrBox .big_img img, .flickrBox .big_img1 img { width: 100%; margin: 0 auto }
+.you_tubeBox iframe { height: 200px }
+.workBox .panel { height: auto; margin-bottom: 20px }
+.bannerBox .bot_list, .bannerBox .carousel-indicators, .bannerBox .text { position: static }
+.bannerBox .list li { line-height: 40px; font-size: 15px; float: left }
+.bannerBox .carousel-control span { top: 85%; width: 20px; background-size: contain!important; -webkit-background-size: contain!important }
+.bannerBox .carousel-control .next_crl { right: -5px }
+.bannerBox { background: #83C01D }
+.bannerBox h2 { font-size: 16px; line-height: 20px }
+.bannerBox .list li a { font-size: 12px }
+#bannerCntr { padding-bottom: 0 }
+.connectBox, .storeBox { margin-top: 20px }
+.search_dataBox button { width: 14% }
+.eventabanBox .banner img { margin: auto }
+.line_right { border: 0!important }
+.event_data .col-sm-4 { margin-top: 10px }
+.event_data .bg-warning { padding: 15px; margin: 10px 0; overflow: hidden }
+.event_data .facebook { width: 100px }
+.infodataBox img { display: block }
+.infodataBox { text-align: center }
+.infodataBox .panel-default { margin-top: 10px; text-align: left }
+.infodataBox p { padding-top: 5px }
+.presslistBox div img { margin: 10px auto; display: block }
+#headerCntr .logo small { margin-top: 5px; line-height: 20px }
+.bannerBox .text { padding: 20px 10px; width: 45%; position: absolute }
+.bannerBox .text h4 { font-size: 16px; line-height: 20px }
+.bannerBox .text p { padding-right: 20px; font-size: 12px; line-height: 16px }
+#mainCntr { padding-bottom: 0 }
+.awardBox.work h1 { padding-top: 60px; margin-bottom: 0; background-size: 60px; -webkit-background-size: 60px }
+#footerCntr { margin-top: 0; height: auto; }
+.slide_btn { display: block!important }
+.menuBox, .mob_none { display: none }
+.mod_header { display: block; margin-bottom: 10px; position: relative; z-index: 999 }
+.mobmenuBox { display: block }
+.mobmenuBox.event { background: #83C01D!important }
+.mobmenuBox ul { margin: 0 0 10px; padding: 10px 0 0; text-align: left }
+.keyBox h2, .latestproBox .col-md-8 h3, .opinionBox h3 { text-align: center }
+.mobmenuBox li { padding-bottom: 2px; line-height: 38px; width: 100%; font-size: 14px; font-family: aller_lightregular }
+.mobmenuBox li a, .mobmenuBox li span { padding: 0 10px; font-size: 20px; display: block; color: #fff; background: #4ca24b }
+.mobmenuBox.event li a, .mobmenuBox.event li span { background: #73aa18 }
+.mobmenuBox li li a, .mobmenuBox.event li li a { padding: 0 10px; line-height: 30px; display: block; font-size: 16px; background: 0 0 }
+.mobmenuBox li li a:hover { color: #fff }
+.mobmenuBox li li { padding: 5px 0; width: 100%; border-top: 1px solid #53ad51 }
+.mobmenuBox li li ul { display: none!important }
+.mobmenuBox.event li li { border-top: 1px solid #73aa18 }
+.mobmenuBox li li a:hover, .mobmenuBox li.active a { background: #1e703b!important }
+.mobmenuBox li.active li a { background: 0 0!important }
+.mobmenuBox li.active li.active a { background: #1e703b!important }
+.mobmenuBox.event li li a:hover { background: #73aa18 }
+.mobmenuBox.event .navbar-toggle { border: 1px solid #608d14 }
+.mobmenuBox.event .navbar-toggle:focus, .mobmenuBox.event .navbar-toggle:hover { background: #608d14 }
+.socailBox li a, .socailBox li.ld a, .socailBox li.tweet a, .socailBox li.yt a { background-color: #fff }
+.mobmenuBox li ul { height: 0; display: none; margin: 0; padding: 0; opacity: 0; filter: "alpha(opacity=0)"; -ms-filter: "alpha(opacity=0)" }
+.bannerBox .carousel-control span, .latestproBox #slider .flex-direction-nav, .opinionBox h3, .updateBox h3 { display: block }
+.mobmenuBox li:hover ul { display: block; height: auto; opacity: 1; filter: "alpha(opacity=100)"; -ms-filter: "alpha(opacity=100)" }
+.mobmenuBox div.maximenuckh div.maximenuck2 { width: 100%!important }
+.mobmenuBox.event h3 { margin: 15px 0 0; text-transform: uppercase; color: #fff; float: left }
+.sectorBox li { width: 90%; float: left; padding: 5px 10px!important }
+.bannerBox .carousel-control span.next_crl { right: 0 }
+.keywordBox li a span, .latestproBox li p { display: none }
+.latestproBox .flex-direction-nav .flex-next { right: 10px }
+.latestproBox .flex-direction-nav .flex-prev { left: 10px }
+.keyBox h2 { padding: 5px }
+.dark_shade { padding: 0 0 10px }
+.paginationBox { padding: 10px 0 0 }
+.projectBox .img_auto img { margin-bottom: 10px }
+.latestproBox .col-md-8 { padding: 10px 0 20px }
+.mod_header .socailBox { position: absolute; width: 70%; right: 15px; top: 0 }
+.socailBox ul { padding-top: 5px }
+#headerCntr .shad { padding: 0 }
+.socailBox li a { border: 0 }
+.socailBox .search { background-position: 0 -24px }
+.socailBox .link span { color: #4CA24B; background: #fff }
+.infodataBox p img { padding: 10px 0; display: block; margin: 0 auto }
+.infodataBox img { margin: 0 auto 10px }
+.infodataBox p { padding-bottom: 30px }
+.photoBox li, .projectBox li div { padding: 0 }
+.bannerBox.fe_banner { height: auto }
+
+.you_tubeBox .link { width: 100%; position: static }
+.fancybox-title-float-wrap .child { white-space: normal!important; padding: 5px!important; margin-top: 10px; font-size: 12px!important; line-height: 15px!important }
+.photoBox li { width: 33.33% }
+.websiteBox.you_tube h5 { font-size: 12px; line-height: 16px; margin: 0; min-height: 50px }
+.archivesBox { margin-top: 15px }
+.tech_infoBox .img-thumbnail { float: none }
+.bannerBox .text p { display: none }
+.flickrBox .img-responsive { width: 100%; height: auto }
+.tinynav { width: 90%; margin: auto auto 10px; padding: 10px 10px 8px; display: block; background: #83C01D; font-size: 16px; color: #fff; border: 1px solid #308a1e }
+.tinynav option { display: block; padding-bottom: 5px; line-height: 40px }
+.event_data .flickr-inner { display: none }
+.socialtech { list-style: none; margin: 0 auto; text-align: left; width: 95% }
+.print-icon { display: none!important }
+.event_data object { display: none }
+.bannerBox .list li a { padding: 0 }
+}
+
+@media only screen and (min-width:480px)and(max-width:767px) {
+.footerBox .col-xs-4 {
+padding: 0 10px;
+}
+.updateBox .block.home_block {
+height:auto;
+overflow:auto
+}
+.areaTextBox p {
+font-size:14px;
+line-height:18px
+}
+.you_tubeBox iframe {
+height:300px
+}
+#mainCntr {
+padding-bottom:0
+}
+#footerCntr {
+margin-top:0;
+height:auto
+}
+.mod_header .socailBox {
+width:60%
+}
+.websiteBox.you_tube h5 {
+min-height:40px;
+font-size:14px
+}
+.bannerBox .text h4 {
+font-size:20px;
+line-height:24px
+}
+.socialtech {
+list-style:none;
+margin:0 auto;
+text-align:left;
+width:95%
+}
+}
+@media only screen and (max-width:767px) {
+
+.awarddataBox .col-sm-4 { width: 50%; }
+}
+@media only screen and (max-width:479px) {
+        .awarddataBox .col-sm-4 { width: 100%; }
+.bannerBox { border: 0 }
+.bannerBox .list li.active, .bannerBox .list li:hover { padding: 1px 0 0 1px }
+.bannerBox .list li { border: 1px solid #f78f07 }
+.bannerBox .list li a { font-size: 11px }
+.bannerBox.fe_banner { height: auto }
+.areaTextBox h3 { font-size: 14px; margin: 5px 0 }
+.blogBox img { width: 100% }
+.titleBox { padding: 10px 0 }
+.bannerBox .text { background: 0 0 }
+.bannerBox .text p { display: none }
+.bannerBox .text h4 { padding: 1%; font-size: 14px }
+.socailBox li a { width: 28px; height: 28px; background-size: cover!important; -webkit-background-size: cover!important }
+.socailBox li a:hover { background-position: 0 -26px }
+.areaTextBox p { padding: 1%; font-size: 9px; line-height: 14px }
+.mapBox li { width: 100% }
+.eventabanBox h3 { font-size: 14px }
+.socialtech { list-style: none; margin: 0 auto; text-align: left; width: 95% }
+}
+.mCustomScrollbar { -ms-touch-action: none; touch-action: none }
+.mCustomScrollbar.mCS_no_scrollbar { -ms-touch-action: auto; touch-action: auto }
+.mCustomScrollBox { position: relative; overflow: hidden; height: 100%; max-width: 100%; outline: 0; direction: ltr }
+.mCSB_container { overflow: hidden; width: auto; height: auto }
+.mCSB_scrollTools { position: absolute; width: 16px; height: auto; left: auto; top: 0; right: 0; bottom: 0 }
+.mCSB_outside+.mCSB_scrollTools { right: -26px }
+.mCSB_scrollTools .mCSB_draggerContainer { position: absolute; top: 0; left: 0; bottom: 0; right: 0; height: auto }
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar { position: relative; width: 4px; height: 100%; margin: 0 auto; -webkit-border-radius: 16px; -moz-border-radius: 16px; border-radius: 16px; text-align: center }
+.mCSB_horizontal.mCSB_inside>.mCSB_container { margin-right: 0; margin-bottom: 20px }
+.mCSB_horizontal.mCSB_outside>.mCSB_container { min-height: 100% }
+.mCSB_horizontal>.mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden { margin-bottom: 0 }
+.mCSB_scrollTools.mCSB_scrollTools_horizontal { width: auto; height: 16px; top: auto; right: 0; bottom: 0; left: 0 }
+.mCustomScrollBox+.mCSB_scrollTools+.mCSB_scrollTools.mCSB_scrollTools_horizontal, .mCustomScrollBox+.mCSB_scrollTools.mCSB_scrollTools_horizontal { bottom: -26px }
+.mCSB_scrollTools.mCSB_scrollTools_horizontal a+.mCSB_draggerContainer { margin: 0 20px }
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail { width: 100%; height: 10px; border-radius: 5px; margin: 7px 0 }
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger { width: 30px; height: 100%; left: 0 }
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar { width: 100%; height: 10px; margin: 6px auto }
+.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar, .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar { height: 12px; margin: 2px auto }
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_draggerRail { background-color: #000; background-color: rgba(0,0,0,.1); filter: "alpha(opacity=10)"; -ms-filter: "alpha(opacity=10)" }
+#list_people { position: relative; width: 1210px; margin: 0 auto 25px; padding-bottom: 10px }
+#view, #view2, #view3 { background: #CCC; border: 1px solid #000; cursor: pointer; display: none; padding: 5px; position: absolute }
+.grid { -webkit-transition: top 1s ease, left 1s ease; -moz-transition: top 1s ease, left 1s ease; -o-transition: top 1s ease, left 1s ease; -ms-transition: top 1s ease, left 1s ease }
+#view { left: 0; margin: 0; top: 0; z-index: 101 }
+#view2 { left: -150px; top: -480px; z-index: 1000 }
+#view3 { left: -400px; top: -50px; z-index: 100 }
+#inlarge, #inlarge2, #inlarge3 { background: #FFF; border: 1px solid #000; cursor: pointer; padding: 2px; position: absolute; z-index: 2 }
+#inlarge { left: 10px; top: 10px }
+#inlarge2 { left: 20px; top: 10px }
+#inlarge3 { left: 10px; top: 150px }
+#image, #image2, #image3 { position: relative }
+#inlarge img, #inlarge2 img { float: left; padding: 0 5px 0 0 }
+#image { z-index: 3; float: left }
+.box12 { border: 5px solid #709513; margin: 10px 0 }
+.box12 .inn { padding: 10px }
+.box12 h3 { background: #709513; color: #FFF; font: 18px/20px arial; margin: 0; padding: 0 0 5px 5px }
+.box12 .inn ul { list-style: none; margin: 0; padding: 10px 0 }
+#view4, #view5, #view6 { background: #CCC; border: 1px solid #000; cursor: pointer; display: none; margin: 0; padding: 5px; position: absolute; z-index: 101 }
+#view4 { left: 0; top: -420px }
+#view5 { left: -200px; top: -450px }
+#view6 { left: -310px; top: -360px }
+
+@media print {
+blockquote, img, pre, tr { page-break-inside: avoid }
+* { text-shadow: none!important; color: #000!important; #000 prints faster:h5bp.com/s background:transparent!important;
+box-shadow: none!important }
+a, a:visited { text-decoration: underline }
+a[href]:after { content: " (" attr(href) ")" }
+abbr[title]:after { content: " (" attr(title) ")" }
+.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: "" }
+blockquote, pre { border: 1px solid #999 }
+thead { display: table-header-group }
+img { max-width: 100%!important }
+@page { margin: .5cm }
+h2, h3, p { orphans: 3; widows: 3 }
+h2, h3 { page-break-after: avoid }
+#footerCntr, #headerCntr, #sign_bg, .archivesBox, .blogBox .detail, .blogBox .link, .blogBox .list .col-xs-12, .blogBox .socail_list, .dataBox, .keywordBox, .menuBox, .menufeBox, .none_print, .npBox, .paginationBox, .print-icon, .searchBox { display: none }
+}
+
+
+#system-message { padding: 10px; width: 100%; margin: 10px auto; background: #dff0d8 }
+#system-message .message { text-align: center }
+.slide-out-div { height: 100%; width: 70% }
+#wrapper.fixed_page { position: fixed; left: 0; top: 0 }
+navbar-collapse { height: auto!important }
+.clearfix { height: 0; clear: both }
+.event_data .bg-primary h3 { padding-left: 10px; color: #333 }
+h1.text-center { margin: 20px 0; color: #676A6E }
+#fancybox-title-float-wrap { width: 100%!important }
+.fancybox-title-float { position: static!important; width: 100%!important }
+#fancybox-title-float-main { padding: 10px!important; line-height: 16px!important; text-align: center!important }
+#fancybox-wrap { padding: 0!important }
+#fancybox-content { padding-top: 20px!important; margin: auto!important; border: 0!important }
+.main .reigster { border: 16px }
+.bannerBox .follow { position: absolute; right: 15px; top: 15px }
+.bannerBox .reigster { position: absolute; left: 182px; bottom: 65px; display: none }
+.bannerBox .read1 { position: absolute; left: 63%; bottom: 46% }
+.bannerBox .read2 { position: absolute; left: 62%; bottom: 22% }
+.bannerBox .read3 { position: absolute; right: 22%; bottom: 27% }
+.bannerBox .btn_regis { position: absolute; right: 0; height: 37%; top: 17%; width: 200px; display: block }
+.bannerBox .btn_regis img { width: 100%; height: 100%!important }
+.bannerBox .btn_regis4 { position: absolute; right: 5px; width: 190px; bottom: 64% }
+.bannerBox .btn_regis3 { position: absolute; right: 1%; width: 190px; bottom: 50% }
+.bannerBox .btn_regis1 { position: absolute; right: 1%; bottom: 35% }
+.bannerBox .btn_regis2 { position: absolute; right: 0; width: 210px; bottom: 20% }
+
+@media only screen and (min-width:960px) and (max-width:1209px) {
+.bannerBox .reigster { position: absolute; left: 157px; bottom: 55px }
+.bannerBox .btn_regis { width: 155px }
+.bannerBox .btn_regis1, .bannerBox .btn_regis3, .bannerBox .btn_regis4 { width: 142px }
+.bannerBox .btn_regis2 { right: 1%; width: 142px }
+}
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+.bannerBox .follow { position: absolute; right: 15px; top: 10px }
+.bannerBox .reigster { position: absolute; left: 127px; bottom: 55px }
+.bannerBox .reigster img { width: 52px }
+.bannerBox .read1 img, .bannerBox .read2 img { width: 50px }
+.bannerBox .read1 { position: absolute; left: 62%; bottom: 46% }
+.bannerBox .read2 { position: absolute; left: 62%; bottom: 20% }
+.bannerBox .btn_regis { width: 115px }
+.bannerBox .btn_regis1, .bannerBox .btn_regis3, .bannerBox .btn_regis4 { width: 110px }
+.bannerBox .btn_regis2 { right: 1%; width: 110px; bottom: 20% }
+.updateBox .block { height: 293px; overflow: auto }
+}
+.pro_newBox td, .pro_newBox th { font-size: 14px }
+.pro_newBox .btn { padding: 5px 10px; font-size: 18px; margin: 10px 0 }
+.event_data .bg-success .link .pdf_none a { background: 0 0; padding-left: 0 }
+.location_dataBox { padding-top: 10px; }
+
+@media only screen and (min-width:1210px) {
+.bannerBox .google-btn { top: 68%; left: 32%; }
+.bannerBox .share-btn { top: 68%; left: 50%; }
+}
+
+@media only screen and (max-width:1209px) {
+.bannerBox .google-btn { top: 68%; left: 32%; }
+.bannerBox .google-btn img { width: 130px; }
+.bannerBox .share-btn { top: 68%; left: 50%; }
+.bannerBox .share-btn img { width: 130px; }
+}
+
+@media only screen and (max-width:959px) {
+.bannerBox .google-btn { top: 68%; left: 32%; }
+.bannerBox .google-btn img { width: 100px; }
+.bannerBox .share-btn { top: 68%; left: 50%; }
+.bannerBox .share-btn img { width: 100px; }
+}
+
+@media only screen and (max-width:500px) {
+.bannerBox .google-btn { top: 65%; left: 32%; }
+.bannerBox .google-btn img { width: 80px; }
+.bannerBox .share-btn { top: 65%; left: 60%; }
+.bannerBox .share-btn img { width: 80px; }
+}
+.stButton { display: none !important; }
+
+  

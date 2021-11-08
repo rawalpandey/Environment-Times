@@ -1,0 +1,138 @@
+// JavaScript Document
+function trim(str)
+			{
+			   return str.replace(/^\s+|\s+$/g,'');
+			}
+function tableOrdering( order, dir, task )
+	{
+		var form = document.form3;
+		form.filter_order.value 	= order;
+		form.filter_order_Dir.value	= dir;
+		//alert(task);
+		form.submit( task );
+	}			
+function onSubmitForm() {
+    var formDOMObj = document.project;
+    if (trim(formDOMObj.searchText.value) == "")
+	  {
+        alert("Please enter the keyword.")
+		formDOMObj.searchText.focus();
+	  }	
+    else
+      {
+	    return true;
+	  }
+    return false;
+}
+
+	function check()
+	{	
+		document.form3.option.value='com_ongoing';
+		document.form3.task.value='both';
+		document.form3.Itemid.value='145';
+		//document.form3.action='index.php?option=com_ongoing&task=both';
+		document.form3.action='index.php?option=com_ongoing&task=both&Itemid=145';
+		
+		if(document.form3.combo1.value=='All'){
+		document.form3.action='index.php?option=com_ongoing&task=both&Itemid=145';
+		document.form3.option.value='com_ongoing';
+		document.form3.task.value='both';
+		}
+		if(document.form3.combo1.value=='Completed'){
+		document.form3.action='index.php?option=com_completed&task=cstudies&Itemid=146';
+		//alert(document.form3.action);
+		document.form3.option.value='com_completed';
+		document.form3.task.value='cstudies';
+		document.form3.Itemid.value='146';
+		}
+		if(document.form3.combo1.value=='Ongoing'){
+		document.form3.action='index.php?option=com_ongoing&task=cstudies&Itemid=145';
+		document.form3.option.value='com_ongoing';
+		document.form3.task.value='cstudies';
+		}
+		var val = document.form3.title.value;
+		val = trim(val);
+		var allowSearch= false;
+		
+		if(document.form3.combo1.value!=''){
+			allowSearch = true;
+		}
+		if(document.form3.division_id.value!='' && document.form3.division_id.value!='0'){
+		allowSearch = true;
+		}
+
+		if(val == "" && !allowSearch){
+			alert("Please put some text or make a selection to search.");
+			document.form3.title.focus();
+			document.form3.title.value = '';
+			return false;
+		}
+		if(document.form3.filter_order) document.form3.filter_order.value = '';
+		if(document.form3.filter_order_Dir) document.form3.filter_order_Dir.value = '';
+		return true;
+	}
+	function checkFeatured(){
+		var val = document.form3.title.value;
+		val = trim(val);
+		var allowSearch= false;
+		
+		if(document.form3.combo1.value!=''){
+			allowSearch = true;
+		}
+		if(document.form3.division_id.value!='' && document.form3.division_id.value!='0'){
+			allowSearch = true;
+		}			
+		if(val == "" && !allowSearch){
+			alert("Please put some text or make a selection to search.");
+			document.form3.title.focus();
+			document.form3.title.value = '';
+			return false;
+		}
+		return true;		
+		
+		
+	}	
+	function valid_search()
+	{
+		val = document.frmsearch.search_text.value;
+		val = trim(val);
+		if(val == "")
+		{
+			alert("Please enter the search string ");
+			document.frmsearch.search_text.focus();
+			return false;
+		}
+		return true;
+	}
+function submitform1(n,l,c){
+
+
+	if(c=="TXT")
+	{
+		if(trim(document.getElementById(n).value)==""){
+		alert('Please input some value in '+l);
+		return false;
+		}
+	}
+	if(c=="SEL")
+	{
+		if(document.getElementById(n).selectedIndex==0){
+		//alert('Please select a option from '+l);
+		alert('Please select theme');
+		return false;
+		}
+	}
+	document.form3.control_name.value=n
+	
+	document.form3.submit();
+}
+/*
+function clr()
+{
+	document.form3.title.value='';
+}
+function changecss(i,cl)
+{
+document.getElementById(i).className = cl;
+}
+*/

@@ -1,0 +1,20 @@
+// JavaScript Document
+function mose(over)
+{
+	for(i=1; i<=3; i++)
+	{
+		document.getElementById('act'+ i).className='inactive';
+}
+	
+	document.getElementById(over).className='active';
+} 
+
+function mose2(over2)
+{
+	for(i=1; i<=3; i++)
+	{
+		document.getElementById('act'+ i).className='inactive';
+}
+	
+	document.getElementById(over).className='inactive';
+} 

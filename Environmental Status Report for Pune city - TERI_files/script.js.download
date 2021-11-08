@@ -1,0 +1,64 @@
+$(function(){
+  var search2 = $('#searchword');
+  var icon2   = $('#search2btn');
+  
+  // handling the focus event on input2
+  $(search2).on('focus', function(){
+    $(this).animate({
+      width: '100%'
+    }, 400, function(){
+      // callback function
+    });
+    $(icon2).animate({
+      right: '10px'
+    }, 400, function(){
+      // callback function
+    });
+  });
+  
+  // handling the blur event on input2
+  $(search2).on('blur', function(){
+    if(search2.val() == '') {
+      $(search2).animate({
+        width: '45%'
+      }, 400, function(){ });
+      
+      $(icon2).animate({
+        right: '360px'
+      }, 400, function(){ });
+    }
+  });
+  
+  // handling both form submissions
+  $('#searchform, #searchform2').submit(function(e) {
+    e.preventDefault();
+  });
+});
+
+
+
+
+
+function Redirect()
+{
+	email =document.modjnewsForm1.email.value;
+
+	var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    if(re.test(email))
+	{
+
+		var e = document.modjnewsForm1.email.value;
+		if( e != 'E-mail'  ){
+		//alert(document.modjnewsForm1.email.value);
+		window.location="index.php?option=com_register&view=register&email="+e;
+		return false;
+		}else{
+		alert("Please fill email address");
+		return false;
+		}
+	}else{
+		alert("Please fill valid email address");
+		document.modjnewsForm1.email.focus();
+		return false;
+	}
+} 
